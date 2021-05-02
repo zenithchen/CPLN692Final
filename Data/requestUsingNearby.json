@@ -1,0 +1,771 @@
+{
+  "parcel_df": [
+    {
+      "Address": "3548 OLD YORK RD",
+      "Opa_account_num": "%27432162600%27",
+      "Parcel_Id": "044N130220",
+      "Parcel_centroid_lat": -8365478.238,
+      "Parcel_centroid_lng": 4866963.2781
+    }
+  ],
+  "properties_df": [
+    {
+      "total_area": 2258,
+      "total_livable_area": 0,
+      "zoning": "RM1",
+      "category": "Vacant Land",
+      "fireplaces": 0,
+      "frontage": 7,
+      "number_stories": 0,
+      "number_of_bathrooms": 0,
+      "number_of_bedrooms": 0,
+      "number_of_rooms": 0,
+      "year_built": "0000"
+    }
+  ],
+  "violation_df": [
+    {
+      "vio_code": "NO CODE VIOLATION",
+      "vio_title": "NO CODE VIOLATION"
+    }
+  ],
+  "request311_within100m": [
+    {
+      "service_name": "Maintenance Complaint",
+      "requested_datetime": "2021-03-28T21:32:53Z",
+      "address": "1301 W VENANGO ST",
+      "lat": 40.0074,
+      "lon": -75.1495
+    },
+    {
+      "service_name": "Illegal Dumping",
+      "requested_datetime": "2021-04-02T08:07:43Z",
+      "address": "1301 W VENANGO ST",
+      "lat": 40.0074,
+      "lon": -75.1495
+    },
+    {
+      "service_name": "LI Escalation",
+      "requested_datetime": "2021-04-19T10:42:58Z",
+      "address": "1213 W VENANGO ST",
+      "lat": 40.0073,
+      "lon": -75.1484
+    }
+  ],
+  "request311.nn5": [
+    {
+      "light.nn5": 226.6582,
+      "heat.nn5": 533.9423,
+      "infestation.nn5": 568.1123,
+      "Detector.nn5": 111.3846,
+      "Dangerous.nn5": 222.3109
+    }
+  ],
+  "nearby_parcel_df": [
+    {
+      "cartodb_id": 311632,
+      "opa_account_num": "432162810",
+      "Parcel_Id": "045N230058     ",
+      "total_area": 1386.87,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "94985",
+      "PARCEL": "0058",
+      "ADDR_SOURCE": "3600 OLD YORK RD ",
+      "x": "-8365456.60483077",
+      "y": "4867006.19470283",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 311626,
+      "opa_account_num": "432162200",
+      "Parcel_Id": "044N130227     ",
+      "total_area": 1900,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "539478",
+      "PARCEL": "0227",
+      "ADDR_SOURCE": "3532 OLD YORK RD ",
+      "x": "-8365475.38123034",
+      "y": "4866907.49531483",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 311628,
+      "opa_account_num": "432162400",
+      "Parcel_Id": "044N130217     ",
+      "total_area": 990.67,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "3",
+      "category": "Residential",
+      "interior": "Above Average",
+      "Parcel_OBJECTID": "428056",
+      "PARCEL": "0217",
+      "ADDR_SOURCE": "3544 OLD YORK RD ",
+      "x": "-8365461.47255278",
+      "y": "4866952.46749855",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 311629,
+      "opa_account_num": "432162500",
+      "Parcel_Id": "044N130106",
+      "total_area": 1059.52,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "516817",
+      "PARCEL": "0106",
+      "ADDR_SOURCE": "3546 OLD YORK RD ",
+      "x": "-8365460.29040393",
+      "y": "4866958.88465943",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 311630,
+      "opa_account_num": "432162600",
+      "Parcel_Id": "044N130220",
+      "total_area": 2258,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "266571",
+      "PARCEL": "0220",
+      "ADDR_SOURCE": "3548 OLD YORK RD ",
+      "x": "-8365478.2379898",
+      "y": "4866963.27809337",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 311633,
+      "opa_account_num": "432162900",
+      "Parcel_Id": "045N230051     ",
+      "total_area": 1376.41,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "538354",
+      "PARCEL": "0051",
+      "ADDR_SOURCE": "3602 OLD YORK RD ",
+      "x": "-8365455.61163784",
+      "y": "4867012.52589958",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 311634,
+      "opa_account_num": "432163000",
+      "Parcel_Id": "045N230048     ",
+      "total_area": 1354.62,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "86922",
+      "PARCEL": "0048",
+      "ADDR_SOURCE": "3604 OLD YORK RD ",
+      "x": "-8365454.39678393",
+      "y": "4867018.8902076",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 527609,
+      "opa_account_num": "882016640",
+      "Parcel_Id": "044N130228     ",
+      "total_area": 2000,
+      "year_built": "1935",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "5",
+      "category": "Commercial",
+      "interior": "Below Average",
+      "Parcel_OBJECTID": "105929",
+      "PARCEL": "0228",
+      "ADDR_SOURCE": "3531 N CAMAC ST ",
+      "x": "-8365514.2185421",
+      "y": "4866914.0654135",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 536859,
+      "opa_account_num": "885509980",
+      "Parcel_Id": "044N130225     ",
+      "total_area": 868,
+      "year_built": "0000",
+      "zoning": "CMX2",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "577726",
+      "PARCEL": "0225",
+      "ADDR_SOURCE": "3545 N CAMAC ST ",
+      "x": "-8365509.3896435",
+      "y": "4866970.82311427",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320692,
+      "opa_account_num": "432031001",
+      "Parcel_Id": "044N120053     ",
+      "total_area": 2713.53,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "100919",
+      "PARCEL": "0053",
+      "ADDR_SOURCE": "1146 W VENANGO ST ",
+      "x": "-8365415.15927216",
+      "y": "4866957.65110432",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320693,
+      "opa_account_num": "432031110",
+      "Parcel_Id": "044N130063",
+      "total_area": 1351.2,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "236216",
+      "PARCEL": "0063",
+      "ADDR_SOURCE": "1200 W VENANGO ST ",
+      "x": "-8365448.1004527",
+      "y": "4866972.64478846",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320694,
+      "opa_account_num": "432031310",
+      "Parcel_Id": "044N130127",
+      "total_area": 600.74,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "480096",
+      "PARCEL": "0127",
+      "ADDR_SOURCE": "1204 W VENANGO ST ",
+      "x": "-8365459.38687705",
+      "y": "4866974.62946631",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320695,
+      "opa_account_num": "432031400",
+      "Parcel_Id": "044N130079     ",
+      "total_area": 600.74,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "591910",
+      "PARCEL": "0079",
+      "ADDR_SOURCE": "1206 W VENANGO ST ",
+      "x": "-8365464.90150747",
+      "y": "4866975.56302528",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320780,
+      "opa_account_num": "432031500",
+      "Parcel_Id": "044N130078     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "591911",
+      "PARCEL": "0078",
+      "ADDR_SOURCE": "1208 W VENANGO ST ",
+      "x": "-8365470.41700219",
+      "y": "4866976.5585883",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320781,
+      "opa_account_num": "432031600",
+      "Parcel_Id": "044N130077     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "145606",
+      "PARCEL": "0077",
+      "ADDR_SOURCE": "1210 W VENANGO ST ",
+      "x": "-8365475.92237067",
+      "y": "4866977.49763756",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320782,
+      "opa_account_num": "432031700",
+      "Parcel_Id": "044N130076     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "448767",
+      "PARCEL": "0076",
+      "ADDR_SOURCE": "1212 W VENANGO ST ",
+      "x": "-8365481.38608882",
+      "y": "4866978.43529216",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320897,
+      "opa_account_num": "432031800",
+      "Parcel_Id": "044N130061     ",
+      "total_area": 600.74,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "512412",
+      "PARCEL": "0061",
+      "ADDR_SOURCE": "1214 W VENANGO ST ",
+      "x": "-8365486.83691811",
+      "y": "4866979.38567344",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320982,
+      "opa_account_num": "432031900",
+      "Parcel_Id": "044N130060     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "365022",
+      "PARCEL": "0060",
+      "ADDR_SOURCE": "1216 W VENANGO ST ",
+      "x": "-8365492.30522259",
+      "y": "4866980.30133729",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320983,
+      "opa_account_num": "432032000",
+      "Parcel_Id": "044N130059",
+      "total_area": 600.74,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "555899",
+      "PARCEL": "0059",
+      "ADDR_SOURCE": "1218 W VENANGO ST ",
+      "x": "-8365497.76705316",
+      "y": "4866981.31388189",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320984,
+      "opa_account_num": "432032100",
+      "Parcel_Id": "044N130058",
+      "total_area": 610.12,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "112394",
+      "PARCEL": "0058",
+      "ADDR_SOURCE": "1220 W VENANGO ST ",
+      "x": "-8365503.31514305",
+      "y": "4866982.1680804",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320985,
+      "opa_account_num": "432032210",
+      "Parcel_Id": "044N130057     ",
+      "total_area": 586.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "162907",
+      "PARCEL": "0057",
+      "ADDR_SOURCE": "1222 W VENANGO ST ",
+      "x": "-8365508.78874207",
+      "y": "4866983.18151887",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320986,
+      "opa_account_num": "432032300",
+      "Parcel_Id": "044N130056     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "428267",
+      "PARCEL": "0056",
+      "ADDR_SOURCE": "1224 W VENANGO ST ",
+      "x": "-8365514.19713465",
+      "y": "4866984.05419285",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320987,
+      "opa_account_num": "432032400",
+      "Parcel_Id": "044N130055     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "192475",
+      "PARCEL": "0055",
+      "ADDR_SOURCE": "1226 W VENANGO ST ",
+      "x": "-8365519.9762525",
+      "y": "4866985.11829082",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312021,
+      "opa_account_num": "432163100",
+      "Parcel_Id": "045N230052     ",
+      "total_area": 1361.59,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "44687",
+      "PARCEL": "0052",
+      "ADDR_SOURCE": "3606 OLD YORK RD ",
+      "x": "-8365453.48600703",
+      "y": "4867024.85712652",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312352,
+      "opa_account_num": "432043000",
+      "Parcel_Id": "045N230084     ",
+      "total_area": 1376,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "383315",
+      "PARCEL": "0084",
+      "ADDR_SOURCE": "1213 W VENANGO ST ",
+      "x": "-8365475.54463966",
+      "y": "4867022.59950409",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312353,
+      "opa_account_num": "432043100",
+      "Parcel_Id": "045N230038     ",
+      "total_area": 1259.51,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "357080",
+      "PARCEL": "0038",
+      "ADDR_SOURCE": "1215 W VENANGO ST ",
+      "x": "-8365482.03858467",
+      "y": "4867023.86191202",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312354,
+      "opa_account_num": "432043200",
+      "Parcel_Id": "045N230023     ",
+      "total_area": 1259.51,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "593115",
+      "PARCEL": "0023",
+      "ADDR_SOURCE": "1217 W VENANGO ST ",
+      "x": "-8365488.10430453",
+      "y": "4867024.90765969",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312355,
+      "opa_account_num": "432043300",
+      "Parcel_Id": "045N230041     ",
+      "total_area": 1252.94,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "473233",
+      "PARCEL": "0041",
+      "ADDR_SOURCE": "1219 W VENANGO ST ",
+      "x": "-8365493.88715521",
+      "y": "4867025.91432191",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312787,
+      "opa_account_num": "432166100",
+      "Parcel_Id": "044N130180     ",
+      "total_area": 2000,
+      "year_built": "0000",
+      "zoning": "CMX2",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "494087",
+      "PARCEL": "0180",
+      "ADDR_SOURCE": "3533 N CAMAC ST ",
+      "x": "-8365513.45351115",
+      "y": "4866921.9768974",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 312788,
+      "opa_account_num": "432166200",
+      "Parcel_Id": "044N130226     ",
+      "total_area": 868,
+      "year_built": "0000",
+      "zoning": "CMX2",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "520959",
+      "PARCEL": "0226",
+      "ADDR_SOURCE": "3543 N CAMAC ST ",
+      "x": "-8365510.61802234",
+      "y": "4866964.3661381",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320988,
+      "opa_account_num": "432032500",
+      "Parcel_Id": "044N130128     ",
+      "total_area": 1031.31,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "482342",
+      "PARCEL": "0128",
+      "ADDR_SOURCE": "1228 W VENANGO ST ",
+      "x": "-8365538.62052615",
+      "y": "4866984.45787909",
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    }
+  ]
+}

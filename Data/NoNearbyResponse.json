@@ -1,0 +1,75 @@
+{
+  "parcel_df": [
+    {
+      "Address": "7701%20%20LINDBERGH%20BLVD",
+      "Opa_account_num": "%27881141400%27",
+      "Parcel_Id": "049S230004",
+      "Parcel_centroid_lat": -8375828.8349,
+      "Parcel_centroid_lng": 4852109.8076
+    }
+  ],
+  "properties_df": [
+    {
+      "zoning": "RM2",
+      "category": "Hotels and Apartments",
+      "interior": "Average"
+    }
+  ],
+  "violation_df": [
+    {
+      "vio_code": "NO CODE VIOLATION",
+      "vio_title": "NO CODE VIOLATION"
+    }
+  ],
+  "request311_within100m": [
+    {
+      "service_name": "Illegal Dumping",
+      "requested_datetime": "2021-03-29T12:02:26Z",
+      "address": "ISLAND AVE & LINDBERGH BLVD",
+      "lat": 39.9039,
+      "lon": -75.2405
+    },
+    {
+      "service_name": "Illegal Dumping",
+      "requested_datetime": "2021-03-29T12:02:34Z",
+      "address": "ISLAND AVE & LINDBERGH BLVD",
+      "lat": 39.9039,
+      "lon": -75.2405
+    },
+    {
+      "service_name": "Maintenance Complaint",
+      "requested_datetime": "2021-04-20T13:25:57Z",
+      "address": "7701 LINDBERGH BLVD",
+      "lat": 39.9042,
+      "lon": -75.2407
+    },
+    {
+      "service_name": "Information Request",
+      "requested_datetime": "2021-04-06T11:48:49Z",
+      "address": "Eastwick",
+      "lat": 39.904,
+      "lon": -75.2402
+    },
+    {
+      "service_name": "Maintenance Complaint",
+      "requested_datetime": "2021-04-21T11:46:33Z",
+      "address": "7701 LINDBERGH BLVD",
+      "lat": 39.9042,
+      "lon": -75.2407
+    }
+  ],
+  "request311.nn5": [
+    {
+      "light.nn5": 992.3701,
+      "heat.nn5": 556.1004,
+      "infestation.nn5": 1477.5017,
+      "Detector.nn5": 778.7285,
+      "Dangerous.nn5": 522.9399
+    }
+  ],
+  "nearby_parcel_df": [
+    {
+      "response": "No parcel is found within 50 meters"
+    }
+  ]
+}

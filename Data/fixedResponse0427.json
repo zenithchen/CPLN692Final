@@ -1,0 +1,659 @@
+{
+  "parcel_df": [
+    {
+      "Address": "4054 1/2%20LANCASTER%20AV",
+      "Opa_account_num": "882929175",
+      "Parcel_Id": "057N010106",
+      "Parcel_centroid_lat": 39.9641,
+      "Parcel_centroid_lng": -75.2043,
+      "X": -8371709.1946,
+      "Y": 4860724.5061
+    }
+  ],
+  "properties_df": [
+    {
+      "total_area": 1600,
+      "total_livable_area": 2940,
+      "zoning": "CMX2",
+      "category": "Commercial",
+      "interior": "Sealed/Structurally Compromised",
+      "exterior_condition": "7",
+      "fireplaces": 0,
+      "frontage": 16,
+      "number_stories": 3,
+      "number_of_bathrooms": 0,
+      "number_of_bedrooms": 0,
+      "number_of_rooms": 0,
+      "year_built": "1915"
+    }
+  ],
+  "violation_df": [
+    {
+      "vio_code": "19-2602.1/1",
+      "vio_title": "CAL LO"
+    }
+  ],
+  "request311_within100m": [
+    {
+      "service_name": "Illegal Dumping",
+      "requested_datetime": "2021-04-26T12:45:18Z",
+      "address": "4077 WALLACE ST",
+      "lat": 39.9637,
+      "lon": -75.2053
+    },
+    {
+      "service_name": "Fire Safety Complaint",
+      "requested_datetime": "2021-04-19T19:30:36Z",
+      "address": "4046 WALLACE ST",
+      "lat": 39.9636,
+      "lon": -75.2045
+    },
+    {
+      "service_name": "Illegal Dumping",
+      "requested_datetime": "2021-04-26T13:00:28Z",
+      "address": "4048 WALLACE ST",
+      "lat": 39.9635,
+      "lon": -75.2046
+    },
+    {
+      "service_name": "Sanitation / Dumpster Violation",
+      "requested_datetime": "2021-04-22T11:30:10Z",
+      "address": "4046 WALLACE ST",
+      "lat": 39.9636,
+      "lon": -75.2045
+    },
+    {
+      "service_name": "Dangerous Building Complaint",
+      "requested_datetime": "2021-04-12T13:47:26Z",
+      "address": "4087 1/2 LANCASTER AVE",
+      "lat": 39.9649,
+      "lon": -75.2051
+    },
+    {
+      "service_name": "Abandoned Vehicle",
+      "requested_datetime": "2021-04-08T19:44:45Z",
+      "address": "634 N PRESTON ST",
+      "lat": 39.9635,
+      "lon": -75.2043
+    },
+    {
+      "service_name": "Construction Complaints",
+      "requested_datetime": "2021-04-19T15:27:50Z",
+      "address": "4086 LANCASTER AVE",
+      "lat": 39.9648,
+      "lon": -75.205
+    },
+    {
+      "service_name": "Illegal Dumping",
+      "requested_datetime": "2021-04-26T12:50:20Z",
+      "address": "Budd St & Wallace St",
+      "lat": 39.9636,
+      "lon": -75.2049
+    },
+    {
+      "service_name": "Maintenance Complaint",
+      "requested_datetime": "2021-04-07T00:02:10Z",
+      "address": "623 N PRESTON ST",
+      "lat": 39.9633,
+      "lon": -75.204
+    },
+    {
+      "service_name": "Social Distancing Complaint",
+      "requested_datetime": "2021-04-21T12:58:28Z",
+      "address": "4088 LANCASTER AVE",
+      "lat": 39.9648,
+      "lon": -75.2051
+    }
+  ],
+  "request311.nn5": [
+    {
+      "light.nn5": 308.8345,
+      "heat.nn5": 662.45,
+      "infestation.nn5": 722.6856,
+      "Detector.nn5": 496.394,
+      "Dangerous.nn5": 247.3835
+    }
+  ],
+  "nearby_parcel_df": [
+    {
+      "cartodb_id": 501052,
+      "opa_account_num": "871402160",
+      "Parcel_Id": "057N010417     ",
+      "total_area": 1660,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "3",
+      "interior_condition": "3",
+      "category": "Store with Dwelling",
+      "interior": "Above Average",
+      "Parcel_OBJECTID": 102403,
+      "PARCEL": "0417",
+      "ADDR_SOURCE": "4150 LANCASTER AVE ",
+      "LNG": -75.207,
+      "LAT": 39.9656,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.207,
+          39.9656
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524488,
+      "opa_account_num": "882929175",
+      "Parcel_Id": "057N010106     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "7",
+      "category": "Commercial",
+      "interior": "Sealed/Structurally Compromised",
+      "Parcel_OBJECTID": 469013,
+      "PARCEL": "0106",
+      "ADDR_SOURCE": "4054 1/2 LANCASTER AVE ",
+      "LNG": -75.2043,
+      "LAT": 39.9641,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043,
+          39.9641
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 503154,
+      "opa_account_num": "871285300",
+      "Parcel_Id": "057N010013     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "3",
+      "interior_condition": "5",
+      "category": "Store with Dwelling",
+      "interior": "Below Average",
+      "Parcel_OBJECTID": 352204,
+      "PARCEL": "0013",
+      "ADDR_SOURCE": "4048 LANCASTER AVE ",
+      "LNG": -75.2042,
+      "LAT": 39.964,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2042,
+          39.964
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524489,
+      "opa_account_num": "882929180",
+      "Parcel_Id": "057N010030     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "5",
+      "category": "Commercial",
+      "interior": "Below Average",
+      "Parcel_OBJECTID": 591558,
+      "PARCEL": "0030",
+      "ADDR_SOURCE": "4056 LANCASTER AVE ",
+      "LNG": -75.2044,
+      "LAT": 39.9641,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044,
+          39.9641
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524490,
+      "opa_account_num": "882929185",
+      "Parcel_Id": "057N010040     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "5",
+      "category": "Commercial",
+      "interior": "Below Average",
+      "Parcel_OBJECTID": 469079,
+      "PARCEL": "0040",
+      "ADDR_SOURCE": "4058 1/2 LANCASTER AVE ",
+      "LNG": -75.2045,
+      "LAT": 39.9642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2045,
+          39.9642
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524491,
+      "opa_account_num": "882929190",
+      "Parcel_Id": "057N010015     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 334032,
+      "PARCEL": "0015",
+      "ADDR_SOURCE": "4064 LANCASTER AVE ",
+      "LNG": -75.2046,
+      "LAT": 39.9643,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2046,
+          39.9643
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524492,
+      "opa_account_num": "882929195",
+      "Parcel_Id": "057N010016     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 296513,
+      "PARCEL": "0016",
+      "ADDR_SOURCE": "4066 LANCASTER AVE ",
+      "LNG": -75.2047,
+      "LAT": 39.9643,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2047,
+          39.9643
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524493,
+      "opa_account_num": "882929200",
+      "Parcel_Id": "057N010020     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 178413,
+      "PARCEL": "0020",
+      "ADDR_SOURCE": "4068 LANCASTER AVE ",
+      "LNG": -75.2047,
+      "LAT": 39.9643,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2047,
+          39.9643
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 524494,
+      "opa_account_num": "882929205",
+      "Parcel_Id": "057N010074     ",
+      "total_area": 1666,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 107366,
+      "PARCEL": "0074",
+      "ADDR_SOURCE": "4070 LANCASTER AVE ",
+      "LNG": -75.2047,
+      "LAT": 39.9643,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2047,
+          39.9643
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 526758,
+      "opa_account_num": "882929145",
+      "Parcel_Id": "056N210199     ",
+      "total_area": 1785,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 485367,
+      "PARCEL": "0199",
+      "ADDR_SOURCE": "4042 LANCASTER AVE ",
+      "LNG": -75.2039,
+      "LAT": 39.9638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2039,
+          39.9638
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 526759,
+      "opa_account_num": "882929150",
+      "Parcel_Id": "056N210196     ",
+      "total_area": 2049,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 388601,
+      "PARCEL": "0196",
+      "ADDR_SOURCE": "4044 LANCASTER AVE ",
+      "LNG": -75.2039,
+      "LAT": 39.9639,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2039,
+          39.9639
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 526760,
+      "opa_account_num": "882929160",
+      "Parcel_Id": "057N010007     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 269397,
+      "PARCEL": "0007",
+      "ADDR_SOURCE": "732 N 41ST ST ",
+      "LNG": -75.2058,
+      "LAT": 39.9659,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2058,
+          39.9659
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 526761,
+      "opa_account_num": "882929165",
+      "Parcel_Id": "057N010110     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 559014,
+      "PARCEL": "0110",
+      "ADDR_SOURCE": "4052 LANCASTER AVE ",
+      "LNG": -75.2043,
+      "LAT": 39.964,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043,
+          39.964
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 534147,
+      "opa_account_num": "886751000",
+      "Parcel_Id": "057N010488     ",
+      "total_area": 1914.75,
+      "year_built": "2007",
+      "zoning": "CMX2",
+      "category_code": "2",
+      "interior_condition": "3",
+      "category": "Hotels and Apartments",
+      "interior": "Above Average",
+      "Parcel_OBJECTID": 438557,
+      "PARCEL": "0488",
+      "ADDR_SOURCE": "4035 WARREN ST ",
+      "LNG": -75.2044,
+      "LAT": 39.9638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044,
+          39.9638
+        ]
+      },
+      "vio_code": [
+        "A.CNE.000"
+      ],
+      "vio_title": [
+        "COULD NOT ENTER"
+      ]
+    },
+    {
+      "cartodb_id": 531946,
+      "opa_account_num": "882018790",
+      "Parcel_Id": "057N010108     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "7",
+      "category": "Commercial",
+      "interior": "Sealed/Structurally Compromised",
+      "Parcel_OBJECTID": 548611,
+      "PARCEL": "0108",
+      "ADDR_SOURCE": "4054 LANCASTER AVE ",
+      "LNG": -75.2043,
+      "LAT": 39.9641,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043,
+          39.9641
+        ]
+      },
+      "vio_code": [
+        "19-2602.1/1"
+      ],
+      "vio_title": [
+        "CAL LO"
+      ]
+    },
+    {
+      "cartodb_id": 536145,
+      "opa_account_num": "882011650",
+      "Parcel_Id": "057N010075     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 576890,
+      "PARCEL": "0075",
+      "ADDR_SOURCE": "4062 LANCASTER AVE ",
+      "LNG": -75.2046,
+      "LAT": 39.9642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2046,
+          39.9642
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 535603,
+      "opa_account_num": "882011630",
+      "Parcel_Id": "057N010032     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 502932,
+      "PARCEL": "0032",
+      "ADDR_SOURCE": "4058 LANCASTER AVE ",
+      "LNG": -75.2044,
+      "LAT": 39.9641,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044,
+          39.9641
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 535604,
+      "opa_account_num": "882011640",
+      "Parcel_Id": "057N010097     ",
+      "total_area": 1600,
+      "year_built": "1915",
+      "zoning": "CMX2",
+      "category_code": "4",
+      "interior_condition": "4",
+      "category": "Commercial",
+      "interior": "Average",
+      "Parcel_OBJECTID": 140660,
+      "PARCEL": "0097",
+      "ADDR_SOURCE": "4060 LANCASTER AVE ",
+      "LNG": -75.2045,
+      "LAT": 39.9642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2045,
+          39.9642
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    }
+  ]
+}
