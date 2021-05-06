@@ -1,0 +1,1150 @@
+{
+  "parcel_df": [
+    {
+      "Input": "3551 OLD YORK RD",
+      "Opa_account_num": "432157400",
+      "Parcel_Id": "044N120288",
+      "ADDR_SOURCE": "3551 OLD YORK RD",
+      "PARCEL": "0288",
+      "Parcel_centroid_lat": 40.006821710418,
+      "Parcel_centroid_lng": -75.147709368277,
+      "X": -8365404.74115748,
+      "Y": 4866933.64139386
+    }
+  ],
+  "parcel_geometry": [
+    {
+      "OBJECTID": 571691,
+      "STCOD": 61300,
+      "BASEREG": "044N120288",
+      "CONDOFLAG": 0,
+      "ADDR_STD": "3551 OLD YORK RD",
+      "MAPREG": "044N120288",
+      "PARCEL": "0288",
+      "TOPELEV": 9999,
+      "RECMAP": "044N12",
+      "RECSUB": " ",
+      "PIN": 1001397511,
+      "MATCHFLAG": 1,
+      "STNAM": "OLD YORK",
+      "Shape__Area": 327.0703125,
+      "ELEV_FLAG": 0,
+      "BOTELEV": -9999,
+      "HOUSE": 3551,
+      "STDES": "RD",
+      "INACTDATE": -2209117941000,
+      "ORIG_DATE": 1055289600000,
+      "STATUS": 1,
+      "ADDR_SOURCE": "3551 OLD YORK RD ",
+      "Shape__Length": 100.061700849327,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.147516812042,
+              40.006824607688
+            ],
+            [
+              -75.147527695005,
+              40.006771749179
+            ],
+            [
+              -75.147903455233,
+              40.006819357167
+            ],
+            [
+              -75.147890922805,
+              40.006871390829
+            ],
+            [
+              -75.147516812042,
+              40.006824607688
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties_df": [
+    {
+      "total_area": 2191.4,
+      "total_livable_area": 1632,
+      "zoning": "RM1",
+      "category": "Residential",
+      "interior": "Average",
+      "exterior_condition": "4",
+      "fireplaces": 0,
+      "frontage": 20,
+      "number_stories": 2,
+      "number_of_bathrooms": 1,
+      "number_of_bedrooms": 4,
+      "number_of_rooms": 7,
+      "year_built": "1920"
+    }
+  ],
+  "violation_df": [
+    {
+      "vio_code": "NO CODE VIOLATION",
+      "vio_title": "NO CODE VIOLATION"
+    }
+  ],
+  "request311_within100m": [
+    {
+      "service_name": "LI Escalation",
+      "requested_datetime": "2021-04-19T10:42:58Z",
+      "address": "1213 W VENANGO ST",
+      "lat": 40.007265236,
+      "lon": -75.148379143
+    },
+    {
+      "service_name": "Eclipse Help",
+      "requested_datetime": "2021-04-13T09:05:27Z",
+      "address": "3553 N MARVINE ST",
+      "lat": 40.006772317,
+      "lon": -75.147077425
+    },
+    {
+      "service_name": "Rubbish/Recyclable Material Collection",
+      "requested_datetime": "2021-04-27T18:00:21Z",
+      "address": "1140 W VENANGO ST",
+      "lat": 40.007126104,
+      "lon": -75.147571417
+    },
+    {
+      "service_name": "Rubbish/Recyclable Material Collection",
+      "requested_datetime": "2021-04-20T13:31:35Z",
+      "address": "3550 N MARVINE ST",
+      "lat": 40.006740953,
+      "lon": -75.147130641
+    }
+  ],
+  "request311.nn5": [
+    {
+      "light.nn5": 215.644958016358,
+      "heat.nn5": 598.478438639863,
+      "infestation.nn5": 564.259975663217,
+      "Detector.nn5": 126.010364433277,
+      "Dangerous.nn5": 239.494689152599
+    }
+  ],
+  "nearby_parcel_df": [
+    {
+      "cartodb_id": 307082,
+      "opa_account_num": "432156800",
+      "Parcel_Id": "044N120063     ",
+      "total_area": 1699.89,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "289656",
+      "PARCEL": "0063",
+      "ADDR_SOURCE": "3539 OLD YORK RD ",
+      "LNG": -75.147768577841,
+      "LAT": 40.006560925415,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147768577841,
+          40.006560925415
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304952,
+      "opa_account_num": "432030400",
+      "Parcel_Id": "044N120126     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "307160",
+      "PARCEL": "0126",
+      "ADDR_SOURCE": "1134 W VENANGO ST ",
+      "LNG": -75.147451613557,
+      "LAT": 40.00694359356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147451613557,
+          40.00694359356
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304953,
+      "opa_account_num": "432030500",
+      "Parcel_Id": "044N120116     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "123668",
+      "PARCEL": "0116",
+      "ADDR_SOURCE": "1136 W VENANGO ST ",
+      "LNG": -75.147503784564,
+      "LAT": 40.006950613274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147503784564,
+          40.006950613274
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304954,
+      "opa_account_num": "432030600",
+      "Parcel_Id": "044N120132     ",
+      "total_area": 1305,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "492509",
+      "PARCEL": "0132",
+      "ADDR_SOURCE": "1138 W VENANGO ST ",
+      "LNG": -75.147556169562,
+      "LAT": 40.006956796781,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147556169562,
+          40.006956796781
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304955,
+      "opa_account_num": "432030700",
+      "Parcel_Id": "044N120135     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "559370",
+      "PARCEL": "0135",
+      "ADDR_SOURCE": "1140 W VENANGO ST ",
+      "LNG": -75.147608650822,
+      "LAT": 40.006964902999,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147608650822,
+          40.006964902999
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304956,
+      "opa_account_num": "432030800",
+      "Parcel_Id": "044N120110     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "410937",
+      "PARCEL": "0110",
+      "ADDR_SOURCE": "1142 W VENANGO ST ",
+      "LNG": -75.147662320651,
+      "LAT": 40.006969935465,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147662320651,
+          40.006969935465
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304957,
+      "opa_account_num": "432030900",
+      "Parcel_Id": "044N120081     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "248502",
+      "PARCEL": "0081",
+      "ADDR_SOURCE": "1144 W VENANGO ST ",
+      "LNG": -75.147716456669,
+      "LAT": 40.006976740566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147716456669,
+          40.006976740566
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304958,
+      "opa_account_num": "432031001",
+      "Parcel_Id": "044N120053     ",
+      "total_area": 2713.53,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "100919",
+      "PARCEL": "0053",
+      "ADDR_SOURCE": "1146 W VENANGO ST ",
+      "LNG": -75.147802955793,
+      "LAT": 40.006986916396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147802955793,
+          40.006986916396
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304959,
+      "opa_account_num": "432031110",
+      "Parcel_Id": "044N130063",
+      "total_area": 1351.2,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "236216",
+      "PARCEL": "0063",
+      "ADDR_SOURCE": "1200 W VENANGO ST ",
+      "LNG": -75.148098871453,
+      "LAT": 40.007090084712,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148098871453,
+          40.007090084712
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 307265,
+      "opa_account_num": "432157200",
+      "Parcel_Id": "044N120067     ",
+      "total_area": 1689.18,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "79044",
+      "PARCEL": "0067",
+      "ADDR_SOURCE": "3547 OLD YORK RD ",
+      "LNG": -75.1477276325,
+      "LAT": 40.006732537543,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1477276325,
+          40.006732537543
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 307266,
+      "opa_account_num": "432157300",
+      "Parcel_Id": "044N120068     ",
+      "total_area": 1683.83,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "402602",
+      "PARCEL": "0068",
+      "ADDR_SOURCE": "3549 OLD YORK RD ",
+      "LNG": -75.147719786883,
+      "LAT": 40.006774257885,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147719786883,
+          40.006774257885
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304563,
+      "opa_account_num": "432029910",
+      "Parcel_Id": "044N120055     ",
+      "total_area": 1370.25,
+      "year_built": "1920",
+      "zoning": "CMX2",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "487922",
+      "PARCEL": "0055",
+      "ADDR_SOURCE": "1124 W VENANGO ST ",
+      "LNG": -75.147190558656,
+      "LAT": 40.006911759213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147190558656,
+          40.006911759213
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304564,
+      "opa_account_num": "432030000",
+      "Parcel_Id": "044N120239     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "399418",
+      "PARCEL": "0239",
+      "ADDR_SOURCE": "1126 W VENANGO ST ",
+      "LNG": -75.147243113042,
+      "LAT": 40.006918822988,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147243113042,
+          40.006918822988
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304565,
+      "opa_account_num": "432030100",
+      "Parcel_Id": "044N120240     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "193620",
+      "PARCEL": "0240",
+      "ADDR_SOURCE": "1128 W VENANGO ST ",
+      "LNG": -75.147295553596,
+      "LAT": 40.006924849435,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147295553596,
+          40.006924849435
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 304566,
+      "opa_account_num": "432030200",
+      "Parcel_Id": "044N120237     ",
+      "total_area": 1470.52,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "191364",
+      "PARCEL": "0237",
+      "ADDR_SOURCE": "1130 W VENANGO ST ",
+      "LNG": -75.147348231778,
+      "LAT": 40.006929454047,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147348231778,
+          40.006929454047
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 307267,
+      "opa_account_num": "432157400",
+      "Parcel_Id": "044N120288     ",
+      "total_area": 2191.4,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "571691",
+      "PARCEL": "0288",
+      "ADDR_SOURCE": "3551 OLD YORK RD ",
+      "LNG": -75.147709368277,
+      "LAT": 40.006821710418,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147709368277,
+          40.006821710418
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 307083,
+      "opa_account_num": "432156900",
+      "Parcel_Id": "044N120064     ",
+      "total_area": 1697.37,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "234587",
+      "PARCEL": "0064",
+      "ADDR_SOURCE": "3541 OLD YORK RD ",
+      "LNG": -75.147756886376,
+      "LAT": 40.006607927012,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147756886376,
+          40.006607927012
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 307084,
+      "opa_account_num": "432157000",
+      "Parcel_Id": "044N120065     ",
+      "total_area": 1694.38,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "112181",
+      "PARCEL": "0065",
+      "ADDR_SOURCE": "3543 OLD YORK RD ",
+      "LNG": -75.147747648393,
+      "LAT": 40.006651017934,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147747648393,
+          40.006651017934
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 307085,
+      "opa_account_num": "432157100",
+      "Parcel_Id": "044N120066     ",
+      "total_area": 1691.7,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "398061",
+      "PARCEL": "0066",
+      "ADDR_SOURCE": "3545 OLD YORK RD ",
+      "LNG": -75.147739585541,
+      "LAT": 40.006689941024,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147739585541,
+          40.006689941024
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308552,
+      "opa_account_num": "432151900",
+      "Parcel_Id": "044N120069     ",
+      "total_area": 1362.89,
+      "year_built": "1925",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "173870",
+      "PARCEL": "0069",
+      "ADDR_SOURCE": "3538 N MARVINE ST ",
+      "LNG": -75.147409509622,
+      "LAT": 40.006513430475,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147409509622,
+          40.006513430475
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308160,
+      "opa_account_num": "432151700",
+      "Parcel_Id": "044N120097     ",
+      "total_area": 1362.89,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "258519",
+      "PARCEL": "0097",
+      "ADDR_SOURCE": "3534 N MARVINE ST ",
+      "LNG": -75.147434572391,
+      "LAT": 40.006436109162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147434572391,
+          40.006436109162
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308161,
+      "opa_account_num": "432151800",
+      "Parcel_Id": "044N120098     ",
+      "total_area": 1362.89,
+      "year_built": "1925",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "6671",
+      "PARCEL": "0098",
+      "ADDR_SOURCE": "3536 N MARVINE ST ",
+      "LNG": -75.14742380458,
+      "LAT": 40.006474368294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.14742380458,
+          40.006474368294
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308553,
+      "opa_account_num": "432152000",
+      "Parcel_Id": "044N120070     ",
+      "total_area": 1362.89,
+      "year_built": "1925",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "7",
+      "category": "Residential",
+      "interior": "Sealed/Structurally Compromised",
+      "Parcel_OBJECTID": "76665",
+      "PARCEL": "0070",
+      "ADDR_SOURCE": "3540 N MARVINE ST ",
+      "LNG": -75.147402076003,
+      "LAT": 40.006555904386,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147402076003,
+          40.006555904386
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308554,
+      "opa_account_num": "432152100",
+      "Parcel_Id": "044N120071     ",
+      "total_area": 1362.89,
+      "year_built": "1925",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "442659",
+      "PARCEL": "0071",
+      "ADDR_SOURCE": "3542 N MARVINE ST ",
+      "LNG": -75.14739341944,
+      "LAT": 40.006598533316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.14739341944,
+          40.006598533316
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308555,
+      "opa_account_num": "432152210",
+      "Parcel_Id": "044N120072     ",
+      "total_area": 1362.89,
+      "year_built": "1925",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "318226",
+      "PARCEL": "0072",
+      "ADDR_SOURCE": "3544 N MARVINE ST ",
+      "LNG": -75.147383999554,
+      "LAT": 40.006639867755,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147383999554,
+          40.006639867755
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308556,
+      "opa_account_num": "432152300",
+      "Parcel_Id": "044N120073     ",
+      "total_area": 1362.89,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "5",
+      "category": "Residential",
+      "interior": "Below Average",
+      "Parcel_OBJECTID": "365843",
+      "PARCEL": "0073",
+      "ADDR_SOURCE": "3546 N MARVINE ST ",
+      "LNG": -75.147372879635,
+      "LAT": 40.006681487452,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147372879635,
+          40.006681487452
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308557,
+      "opa_account_num": "432152400",
+      "Parcel_Id": "044N120074     ",
+      "total_area": 1362.89,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "400261",
+      "PARCEL": "0074",
+      "ADDR_SOURCE": "3548 N MARVINE ST ",
+      "LNG": -75.147361960167,
+      "LAT": 40.006725902258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147361960167,
+          40.006725902258
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 308558,
+      "opa_account_num": "432152500",
+      "Parcel_Id": "044N120246     ",
+      "total_area": 1800,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "368099",
+      "PARCEL": "0246",
+      "ADDR_SOURCE": "3550 N MARVINE ST ",
+      "LNG": -75.147353143688,
+      "LAT": 40.006776495304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147353143688,
+          40.006776495304
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 309732,
+      "opa_account_num": "432156700",
+      "Parcel_Id": "044N120090     ",
+      "total_area": 1692.84,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "343279",
+      "PARCEL": "0090",
+      "ADDR_SOURCE": "3537 OLD YORK RD ",
+      "LNG": -75.147784832812,
+      "LAT": 40.006520799565,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147784832812,
+          40.006520799565
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 309022,
+      "opa_account_num": "432162400",
+      "Parcel_Id": "044N130217     ",
+      "total_area": 990.67,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "3",
+      "category": "Residential",
+      "interior": "Above Average",
+      "Parcel_OBJECTID": "428056",
+      "PARCEL": "0217",
+      "ADDR_SOURCE": "3544 OLD YORK RD ",
+      "LNG": -75.148218995072,
+      "LAT": 40.006951249083,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148218995072,
+          40.006951249083
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 309023,
+      "opa_account_num": "432162500",
+      "Parcel_Id": "044N130106",
+      "total_area": 1059.52,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "516817",
+      "PARCEL": "0106",
+      "ADDR_SOURCE": "3546 OLD YORK RD ",
+      "LNG": -75.148208375648,
+      "LAT": 40.006995404229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148208375648,
+          40.006995404229
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 309729,
+      "opa_account_num": "432156400",
+      "Parcel_Id": "044N120087     ",
+      "total_area": 1700.67,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "274663",
+      "PARCEL": "0087",
+      "ADDR_SOURCE": "3531 OLD YORK RD ",
+      "LNG": -75.14781025853,
+      "LAT": 40.00639729112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.14781025853,
+          40.00639729112
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 309730,
+      "opa_account_num": "432156500",
+      "Parcel_Id": "044N120088     ",
+      "total_area": 1698.01,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "278132",
+      "PARCEL": "0088",
+      "ADDR_SOURCE": "3533 OLD YORK RD ",
+      "LNG": -75.147801663257,
+      "LAT": 40.006439401908,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147801663257,
+          40.006439401908
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 309731,
+      "opa_account_num": "432156600",
+      "Parcel_Id": "044N120089     ",
+      "total_area": 1695.5,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "226600",
+      "PARCEL": "0089",
+      "ADDR_SOURCE": "3535 OLD YORK RD ",
+      "LNG": -75.147792538602,
+      "LAT": 40.006479530361,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147792538602,
+          40.006479530361
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    }
+  ]
+}
