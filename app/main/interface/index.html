@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- CSS Imports -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" integrity="sha256-iYUgmrapfDGvBrePJPrMWQZDcObdAcStKBpjP3Az+3s=" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <link href="./css/main.css" rel="stylesheet" />
+        <!-- JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js" integrity="sha512-VMsZqo0ar06BMtg0tPsdgRADvl0kDHpTbugCBBrL55KmucH6hP9zWdLIWY//OTfMnzz6xWQRxQqsUFefwHuHyg==" crossorigin="anonymous"></script>
+        <script src="js/leaflet.js"></script>
+
+
+        <title>Document</title></head>
+        <body>
+            <div class="canvas">
+
+            <span>2,322</span>
+            <span>68</span>
+            <div class="mapframe2"></div>
+            <div class="mapframe1"></div>
+            <div id="map" class="map">
+                <script>
+                    var map = L.map('map', {
+                        center: [
+                            39.981111,
+                            -75.12588500976562
+                        ],
+                        zoom: 11
+                    });
+
+                    var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                        subdomains: 'abcd',
+                        minZoom: 0,
+                        maxZoom: 20,
+                        ext: 'png'
+                    }).addTo(map);
+                </script>
+            </div>
+
+
+
+            <!--navbar-->
+            <div class="navbar">
+                <ul class="nav flex-column"style="position:absolute; top : 6%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"href="#">
+                            <buttondata-toggle="tooltip" data-placement="right" title="Clear all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgb(209,209,209)" class="bi bi-vinyl-fill" viewBox="0 0 16 16">
+                                    <path d="M8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0 3a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0z"/>
+                                </svg>
+                            </button>        
+                        </a>              
+                    </li>
+                    <li class="nav-item" >
+                      <a class="nav-link active text" aria-current="page" href="#" >Active</a>
+                    </li>
+                    <li class="nav-item"  >
+                      <a class="nav-link text" href="#" >Link</a>
+                    </li>
+                    <li class="nav-item" >
+                      <a class="nav-link text" href="#" >Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled text" href="#" tabindex="-1" aria-disabled="true">Link</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <span class="above">Above</span>
+            <span class="average">Average</span>
+
+
+            <!--Search-->
+            <div class="sidebar2" style="top: 21%;">
+                <div class="input-group">
+                    <div class="input-group-text" id="btnGroupAddon">Go</div>
+                    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                </div>
+            </div>
+            
+
+            <!-- chart -->
+            <div class="sidebar2 text" style="top: 30%;">
+                <canvas id="myChart" width="95" height="95">
+                <script>
+                const DATA_COUNT = 7;
+                const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
+                const labels = ["risk", "risk", "risk", "risk", "risk", "risk"];
+                const data = {
+                    labels: labels,
+                    datasets: [
+                        {label: 'The parcel',
+                        data: [3,4,5,3,4,5],
+                        backgroungColor: ['rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)']
+                    },
+                    {
+                        label: 'Average',
+                        data: [1,4,6,2,2,2],
+                        backgroungColor: ['rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)']
+                    }]
+                };
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    data: data,
+                    type: 'radar',
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            title: {
+                                display: false,
+                                text: 'Risk Chart'
+                            },
+                            legend: {
+                            display: false,
+                            position: 'top'
+                            }
+                        }
+                    }
+                });
+                </script>
+                </canvas>
+            </div>
+
+
+
+        <div class="sidebar" style="top: 65%;">
+            <canvas id="myChart2" width="300" height="55" >
+            <script>
+            var ctx = document.getElementById('myChart2').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Total area', 'Average'],
+                    datasets: [{
+                        label: 'Total area',
+                        data: [244, 195],
+                        backgroundColor: [
+                            'rgba(209, 209, 209,1)',
+                            'rgba(209, 209, 209,1)',
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    indexAxis: 'y',
+                    elements: {
+                        bar: {
+                        borderWidth: 2,
+                        }
+                    },
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        title: {
+                            display: false,
+                            text: '# of rooms'
+                        }
+                     }
+                }
+            });
+            </script>
+            </canvas>
+        </div>
+
+        <div class="sidebar" style="top: 74%;">
+            <canvas id="myChart3" width="300" height="55">
+            <script>
+            var ctx = document.getElementById('myChart3').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Frontage  ', 'Average'],
+                    datasets: [{
+                        label: '# of rooms',
+                        data: [2.4, 3.8],
+                        backgroundColor: [
+                            'rgba(209, 209, 209,1)',
+                            'rgba(209, 209, 209,1)',
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    indexAxis: 'y',
+                    elements: {
+                        bar: {
+                        borderWidth: 2,
+                        }
+                    },
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        title: {
+                            display: false,
+                            text: '# of rooms'
+                        }
+                     }
+                }
+            });
+            </script>
+            </canvas>
+        </div>
+
+
+        <div class="sidebar" style="top: 83%;">
+            <canvas id="myChart4" width="300" height="55" >
+            <script>
+            var ctx = document.getElementById('myChart4').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['#of rooms', 'Average'],
+                    datasets: [{
+                        label: '# of rooms',
+                        data: [3, 4],
+                        backgroundColor: [
+                            'rgba(209, 209, 209,1)',
+                            'rgba(209, 209, 209,1)',
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    indexAxis: 'y',
+                    elements: {
+                        bar: {
+                        borderWidth: 2,
+                        }
+                    },
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        title: {
+                            display: false,
+                            text: '# of rooms'
+                        }
+                     }
+                }
+            });
+            </script>
+            </canvas>
+        </div>
+
+
+        
+       <div class="text">
+        <div class="sidebar3" style="top: 1%;">
+            <div class="card" style="background-color: rgba(1, 1, 1, 0); border: rgba(1, 1, 1, 0);">
+                <div class="card-body" >
+                  <h5 class="card-title">CENSUS DATA</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar3" style="top: 30%;">
+            <div class="card" style="background-color: rgba(1, 1, 1, 0); border: rgba(1, 1, 1, 0);">
+                <div class="card-body" >
+                  <h5 class="card-title">311 REQUEST</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar3" style="top: 64%;">
+            <div class="card" style="background-color: rgba(1, 1, 1, 0); border: rgba(1, 1, 1, 0);">
+                <div class="card-body" >
+                  <h5 class="card-title">NEARBY PARCEL</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!--
+        <span class="census">CENSUS DATA</span>
+            <span class="R311">311 REQUEST</span>
+            <span >2,842</span>
+            <span class="nearby">NEARBY PARCEL</span>
+
+            <span>Population</span>
+            <span>Whites</span>
+            <span>Blacks</span>
+   
+            <span>6</span>
+            <span>Abandoned Vehicle</span>
+            <span>Maintenance Complaint</span>
+            <span>Street Light Outage</span>
+            <span>Abandoned Vehicle</span>
+            <span>Abandoned Vehicle</span>
+
+            <span>Dangerous Building Complaint</span>
+            <span>17,219</span>
+            <span>Median Income</span>
+
+            <span>8</span>
+            <span>Abandoned Vehicle</span>
+            <span>Abandoned Vehicle</span>
+            <span>Maintenance Complaint</span>
+            <span>Maintenance Complaint</span>
+            <span>Street Light Outage</span>
+            <span>Street Light Outage</span>
+
+            <span>Dangerous Building Complaint</span>
+            <span>Dangerous Building Complaint</span>
+            -->
+        </div>
+        </div>
+    </body>
+</html>
