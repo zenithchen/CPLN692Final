@@ -12,4 +12,5 @@ var mapbox_base = L.tileLayer('https://api.mapbox.com/styles/v1/opheliaaa/ck9ylj
 //  ext: 'png'
 }).addTo(map);
 
-var featureGroup;
+
+
