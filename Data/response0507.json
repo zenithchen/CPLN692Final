@@ -1,0 +1,1197 @@
+{
+  "parcel_df": [
+    {
+      "Input": "1200%20W%20VENANGO%20ST",
+      "Opa_account_num": "432031110",
+      "Parcel_Id": "044N130063",
+      "ADDR_SOURCE": "1200 W VENANGO ST",
+      "PARCEL": "0063",
+      "Parcel_centroid_lat": 40.0070900847119,
+      "Parcel_centroid_lng": -75.1480988714528,
+      "X": -8365448.1004527,
+      "Y": 4866972.64478846
+    }
+  ],
+  "parcel_geometry": [
+    {
+      "BASEREG": "044N130063",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.1480845442494,
+              40.0070236517704
+            ],
+            [
+              -75.1481415875691,
+              40.0070321563136
+            ],
+            [
+              -75.1481400142401,
+              40.0070390900444
+            ],
+            [
+              -75.148117399902,
+              40.007138656492
+            ],
+            [
+              -75.1481134616964,
+              40.0071559650286
+            ],
+            [
+              -75.1480560665106,
+              40.0071485066922
+            ],
+            [
+              -75.1480601871042,
+              40.0071304445332
+            ],
+            [
+              -75.1480827882999,
+              40.0070313454264
+            ],
+            [
+              -75.1480845442494,
+              40.0070236517704
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties_df": [
+    {
+      "total_area": 1351.2,
+      "total_livable_area": 0,
+      "zoning": "RM1",
+      "category": "Vacant Land",
+      "fireplaces": 0,
+      "frontage": 30,
+      "number_stories": 0,
+      "number_of_bathrooms": 0,
+      "number_of_bedrooms": 0,
+      "number_of_rooms": 0,
+      "year_built": "0000",
+      "isRM1": 1,
+      "isCMX2": 0,
+      "iscom": 0,
+      "ishotel": 0,
+      "issealed": 0,
+      "isbelow": 0
+    }
+  ],
+  "violation_df": [
+    {
+      "violationcode": "CP-01",
+      "violationcodetitle": "CLIP VIOLATION NOTICE",
+      "opa_account_num": "432031110",
+      "violation_summary": "OTHERS",
+      "viol_count": 2,
+      "related_violation": 0,
+      "exterior": 0,
+      "interior": 0,
+      "had_extvio": 0,
+      "had_intvio": 0,
+      "isunsafe": 0,
+      "noequip": 0
+    },
+    {
+      "violationcode": "PM-306.0/91",
+      "violationcodetitle": "VACANT LOT KEEP CLEAN GET LIC",
+      "opa_account_num": "432031110",
+      "violation_summary": "OTHERS",
+      "viol_count": 2,
+      "related_violation": 0,
+      "exterior": 0,
+      "interior": 0,
+      "had_extvio": 0,
+      "had_intvio": 0,
+      "isunsafe": 0,
+      "noequip": 0
+    }
+  ],
+  "request311_within100m": [
+    {
+      "service_name": "Eclipse Help",
+      "requested_datetime": "2021-04-13T09:05:27Z",
+      "address": "3553 N MARVINE ST",
+      "lat": 40.006772317,
+      "lon": -75.147077425
+    },
+    {
+      "service_name": "LI Escalation",
+      "requested_datetime": "2021-04-19T10:42:58Z",
+      "address": "1213 W VENANGO ST",
+      "lat": 40.007265236,
+      "lon": -75.148379143
+    },
+    {
+      "service_name": "Rubbish/Recyclable Material Collection",
+      "requested_datetime": "2021-04-20T13:31:35Z",
+      "address": "3550 N MARVINE ST",
+      "lat": 40.006740953,
+      "lon": -75.147130641
+    },
+    {
+      "service_name": "Rubbish/Recyclable Material Collection",
+      "requested_datetime": "2021-04-27T18:00:21Z",
+      "address": "1140 W VENANGO ST",
+      "lat": 40.007126104,
+      "lon": -75.147571417
+    }
+  ],
+  "request311.nn5": [
+    {
+      "light.nn5": 211.213784854988,
+      "heat.nn5": 551.606315522602,
+      "infestation.nn5": 562.424855169478,
+      "Detector.nn5": 100.149027470799,
+      "Dangerous.nn5": 254.759904072449
+    }
+  ],
+  "nearby_parcel_df": [
+    {
+      "cartodb_id": 316239,
+      "opa_account_num": "432031110",
+      "Parcel_Id": "044N130063",
+      "total_area": 1351.2,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "236216",
+      "PARCEL": "0063",
+      "ADDR_SOURCE": "1200 W VENANGO ST ",
+      "LNG": -75.1480988714528,
+      "LAT": 40.0070900847119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1480988714528,
+          40.0070900847119
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316340,
+      "opa_account_num": "432163000",
+      "Parcel_Id": "045N230048     ",
+      "total_area": 1354.62,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "86922",
+      "PARCEL": "0048",
+      "ADDR_SOURCE": "3604 OLD YORK RD ",
+      "LNG": -75.1481554323586,
+      "LAT": 40.0074082885127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1481554323586,
+          40.0074082885127
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316240,
+      "opa_account_num": "432031310",
+      "Parcel_Id": "044N130127",
+      "total_area": 600.74,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "480096",
+      "PARCEL": "0127",
+      "ADDR_SOURCE": "1204 W VENANGO ST ",
+      "LNG": -75.1482002591277,
+      "LAT": 40.0071037408417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1482002591277,
+          40.0071037408417
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316241,
+      "opa_account_num": "432031400",
+      "Parcel_Id": "044N130079     ",
+      "total_area": 600.74,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "591910",
+      "PARCEL": "0079",
+      "ADDR_SOURCE": "1206 W VENANGO ST ",
+      "LNG": -75.1482497978957,
+      "LAT": 40.0071101644537,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1482497978957,
+          40.0071101644537
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316335,
+      "opa_account_num": "432162400",
+      "Parcel_Id": "044N130217     ",
+      "total_area": 990.67,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "3",
+      "category": "Residential",
+      "interior": "Above Average",
+      "Parcel_OBJECTID": "428056",
+      "PARCEL": "0217",
+      "ADDR_SOURCE": "3544 OLD YORK RD ",
+      "LNG": -75.1482189950716,
+      "LAT": 40.0069512490834,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1482189950716,
+          40.0069512490834
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316336,
+      "opa_account_num": "432162500",
+      "Parcel_Id": "044N130106",
+      "total_area": 1059.52,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "516817",
+      "PARCEL": "0106",
+      "ADDR_SOURCE": "3546 OLD YORK RD ",
+      "LNG": -75.1482083756478,
+      "LAT": 40.0069954042294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1482083756478,
+          40.0069954042294
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316337,
+      "opa_account_num": "432162600",
+      "Parcel_Id": "044N130220",
+      "total_area": 2258,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "266571",
+      "PARCEL": "0220",
+      "ADDR_SOURCE": "3548 OLD YORK RD ",
+      "LNG": -75.1483696015548,
+      "LAT": 40.0070256345158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1483696015548,
+          40.0070256345158
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316338,
+      "opa_account_num": "432162810",
+      "Parcel_Id": "045N230058     ",
+      "total_area": 1386.87,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "94985",
+      "PARCEL": "0058",
+      "ADDR_SOURCE": "3600 OLD YORK RD ",
+      "LNG": -75.1481752675808,
+      "LAT": 40.0073209338922,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1481752675808,
+          40.0073209338922
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316339,
+      "opa_account_num": "432162900",
+      "Parcel_Id": "045N230051     ",
+      "total_area": 1376.41,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "538354",
+      "PARCEL": "0051",
+      "ADDR_SOURCE": "3602 OLD YORK RD ",
+      "LNG": -75.1481663455769,
+      "LAT": 40.0073644973012,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1481663455769,
+          40.0073644973012
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316242,
+      "opa_account_num": "432031500",
+      "Parcel_Id": "044N130078     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "591911",
+      "PARCEL": "0078",
+      "ADDR_SOURCE": "1208 W VENANGO ST ",
+      "LNG": -75.1482993444277,
+      "LAT": 40.0071170147012,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1482993444277,
+          40.0071170147012
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316243,
+      "opa_account_num": "432031600",
+      "Parcel_Id": "044N130077     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "145606",
+      "PARCEL": "0077",
+      "ADDR_SOURCE": "1210 W VENANGO ST ",
+      "LNG": -75.1483487999943,
+      "LAT": 40.0071234760895,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1483487999943,
+          40.0071234760895
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316244,
+      "opa_account_num": "432031700",
+      "Parcel_Id": "044N130076     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "448767",
+      "PARCEL": "0076",
+      "ADDR_SOURCE": "1212 W VENANGO ST ",
+      "LNG": -75.1483978814095,
+      "LAT": 40.0071299278808,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1483978814095,
+          40.0071299278808
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316857,
+      "opa_account_num": "432042600",
+      "Parcel_Id": "045N220020     ",
+      "total_area": 1305,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "422502",
+      "PARCEL": "0020",
+      "ADDR_SOURCE": "1149 W VENANGO ST ",
+      "LNG": -75.1476549605503,
+      "LAT": 40.0073541637777,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1476549605503,
+          40.0073541637777
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316723,
+      "opa_account_num": "432163100",
+      "Parcel_Id": "045N230052     ",
+      "total_area": 1361.59,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "44687",
+      "PARCEL": "0052",
+      "ADDR_SOURCE": "3606 OLD YORK RD ",
+      "LNG": -75.1481472507105,
+      "LAT": 40.0074493453637,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1481472507105,
+          40.0074493453637
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316724,
+      "opa_account_num": "432163200",
+      "Parcel_Id": "045N230053     ",
+      "total_area": 1354.62,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "513350",
+      "PARCEL": "0053",
+      "ADDR_SOURCE": "3608 OLD YORK RD ",
+      "LNG": -75.1481377197672,
+      "LAT": 40.0074895800264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1481377197672,
+          40.0074895800264
+        ]
+      },
+      "vio_code": [
+        "PM-302.4/3"
+      ],
+      "vio_title": [
+        "DRAINAGE-AFFECTING ADJ/PROP"
+      ]
+    },
+    {
+      "cartodb_id": 316725,
+      "opa_account_num": "432163300",
+      "Parcel_Id": "045N230031     ",
+      "total_area": 1354.62,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "211702",
+      "PARCEL": "0031",
+      "ADDR_SOURCE": "3610 OLD YORK RD ",
+      "LNG": -75.1481448795357,
+      "LAT": 40.0075352117511,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1481448795357,
+          40.0075352117511
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316858,
+      "opa_account_num": "432042700",
+      "Parcel_Id": "045N220022     ",
+      "total_area": 1305,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "172028",
+      "PARCEL": "0022",
+      "ADDR_SOURCE": "1151 W VENANGO ST ",
+      "LNG": -75.1477088700128,
+      "LAT": 40.0073615039089,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1477088700128,
+          40.0073615039089
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 316859,
+      "opa_account_num": "432042800",
+      "Parcel_Id": "045N220015     ",
+      "total_area": 1311.09,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "550070",
+      "PARCEL": "0015",
+      "ADDR_SOURCE": "1153 W VENANGO ST ",
+      "LNG": -75.1477650906684,
+      "LAT": 40.0073676301122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1477650906684,
+          40.0073676301122
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 317251,
+      "opa_account_num": "432043100",
+      "Parcel_Id": "045N230038     ",
+      "total_area": 1259.51,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "357080",
+      "PARCEL": "0038",
+      "ADDR_SOURCE": "1215 W VENANGO ST ",
+      "LNG": -75.1484037428794,
+      "LAT": 40.0074424975477,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1484037428794,
+          40.0074424975477
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 317252,
+      "opa_account_num": "432043200",
+      "Parcel_Id": "045N230023     ",
+      "total_area": 1259.51,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "593115",
+      "PARCEL": "0023",
+      "ADDR_SOURCE": "1217 W VENANGO ST ",
+      "LNG": -75.148458232168,
+      "LAT": 40.0074496930695,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148458232168,
+          40.0074496930695
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 319827,
+      "opa_account_num": "432031800",
+      "Parcel_Id": "044N130061     ",
+      "total_area": 600.74,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "512412",
+      "PARCEL": "0061",
+      "ADDR_SOURCE": "1214 W VENANGO ST ",
+      "LNG": -75.1484468470421,
+      "LAT": 40.0071364672409,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1484468470421,
+          40.0071364672409
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 317249,
+      "opa_account_num": "432043000",
+      "Parcel_Id": "045N230084     ",
+      "total_area": 1376,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "383315",
+      "PARCEL": "0084",
+      "ADDR_SOURCE": "1213 W VENANGO ST ",
+      "LNG": -75.1483454067788,
+      "LAT": 40.0074338112411,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1483454067788,
+          40.0074338112411
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 317617,
+      "opa_account_num": "432157300",
+      "Parcel_Id": "044N120068     ",
+      "total_area": 1683.83,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "402602",
+      "PARCEL": "0068",
+      "ADDR_SOURCE": "3549 OLD YORK RD ",
+      "LNG": -75.1477197868829,
+      "LAT": 40.0067742578852,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1477197868829,
+          40.0067742578852
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 317618,
+      "opa_account_num": "432157400",
+      "Parcel_Id": "044N120288     ",
+      "total_area": 2191.4,
+      "year_built": "1920",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "571691",
+      "PARCEL": "0288",
+      "ADDR_SOURCE": "3551 OLD YORK RD ",
+      "LNG": -75.1477093682767,
+      "LAT": 40.0068217104176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1477093682767,
+          40.0068217104176
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 319078,
+      "opa_account_num": "432030600",
+      "Parcel_Id": "044N120132     ",
+      "total_area": 1305,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "492509",
+      "PARCEL": "0132",
+      "ADDR_SOURCE": "1138 W VENANGO ST ",
+      "LNG": -75.147556169562,
+      "LAT": 40.0069567967813,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.147556169562,
+          40.0069567967813
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 319079,
+      "opa_account_num": "432030700",
+      "Parcel_Id": "044N120135     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "559370",
+      "PARCEL": "0135",
+      "ADDR_SOURCE": "1140 W VENANGO ST ",
+      "LNG": -75.1476086508223,
+      "LAT": 40.0069649029986,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1476086508223,
+          40.0069649029986
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 319080,
+      "opa_account_num": "432030800",
+      "Parcel_Id": "044N120110     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "410937",
+      "PARCEL": "0110",
+      "ADDR_SOURCE": "1142 W VENANGO ST ",
+      "LNG": -75.1476623206513,
+      "LAT": 40.0069699354646,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1476623206513,
+          40.0069699354646
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 319081,
+      "opa_account_num": "432030900",
+      "Parcel_Id": "044N120081     ",
+      "total_area": 1318.92,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "2",
+      "interior_condition": "4",
+      "category": "Hotels and Apartments",
+      "interior": "Average",
+      "Parcel_OBJECTID": "248502",
+      "PARCEL": "0081",
+      "ADDR_SOURCE": "1144 W VENANGO ST ",
+      "LNG": -75.1477164566687,
+      "LAT": 40.0069767405661,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1477164566687,
+          40.0069767405661
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 319082,
+      "opa_account_num": "432031001",
+      "Parcel_Id": "044N120053     ",
+      "total_area": 2713.53,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "100919",
+      "PARCEL": "0053",
+      "ADDR_SOURCE": "1146 W VENANGO ST ",
+      "LNG": -75.1478029557932,
+      "LAT": 40.0069869163961,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1478029557932,
+          40.0069869163961
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 317492,
+      "opa_account_num": "432166200",
+      "Parcel_Id": "044N130226     ",
+      "total_area": 868,
+      "year_built": "0000",
+      "zoning": "CMX2",
+      "category_code": "6",
+      "interior_condition": "0",
+      "category": "Vacant Land",
+      "interior": "Not Applicable",
+      "Parcel_OBJECTID": "520959",
+      "PARCEL": "0226",
+      "ADDR_SOURCE": "3543 N CAMAC ST ",
+      "LNG": -75.1486604763361,
+      "LAT": 40.0070331211186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1486604763361,
+          40.0070331211186
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 534719,
+      "opa_account_num": "885509980",
+      "Parcel_Id": "044N130225     ",
+      "total_area": 868,
+      "year_built": "0000",
+      "zoning": "CMX2",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "577726",
+      "PARCEL": "0225",
+      "ADDR_SOURCE": "3545 N CAMAC ST ",
+      "LNG": -75.1486494416212,
+      "LAT": 40.0070775501719,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1486494416212,
+          40.0070775501719
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320008,
+      "opa_account_num": "432031900",
+      "Parcel_Id": "044N130060     ",
+      "total_area": 600.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "365022",
+      "PARCEL": "0060",
+      "ADDR_SOURCE": "1216 W VENANGO ST ",
+      "LNG": -75.148495969657,
+      "LAT": 40.0071427677176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148495969657,
+          40.0071427677176
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320010,
+      "opa_account_num": "432032000",
+      "Parcel_Id": "044N130059",
+      "total_area": 600.74,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "555899",
+      "PARCEL": "0059",
+      "ADDR_SOURCE": "1218 W VENANGO ST ",
+      "LNG": -75.1485450341158,
+      "LAT": 40.0071497348082,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1485450341158,
+          40.0071497348082
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320011,
+      "opa_account_num": "432032100",
+      "Parcel_Id": "044N130058",
+      "total_area": 610.12,
+      "year_built": "0000",
+      "zoning": "RM1",
+      "category_code": "6",
+      "category": "Vacant Land",
+      "interior": "None Found",
+      "Parcel_OBJECTID": "112394",
+      "PARCEL": "0058",
+      "ADDR_SOURCE": "1220 W VENANGO ST ",
+      "LNG": -75.1485948734553,
+      "LAT": 40.0071556123546,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1485948734553,
+          40.0071556123546
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    },
+    {
+      "cartodb_id": 320012,
+      "opa_account_num": "432032210",
+      "Parcel_Id": "044N130057     ",
+      "total_area": 586.74,
+      "year_built": "1940",
+      "zoning": "RM1",
+      "category_code": "1",
+      "interior_condition": "4",
+      "category": "Residential",
+      "interior": "Average",
+      "Parcel_OBJECTID": "162907",
+      "PARCEL": "0057",
+      "ADDR_SOURCE": "1222 W VENANGO ST ",
+      "LNG": -75.1486440436319,
+      "LAT": 40.0071625855944,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1486440436319,
+          40.0071625855944
+        ]
+      },
+      "vio_code": [
+        "NO CODE VIOLATION"
+      ],
+      "vio_title": [
+        "NO CODE VIOLATION"
+      ]
+    }
+  ]
+}
