@@ -29,7 +29,7 @@ var redIcon = new L.Icon({
 });
 
 var blueIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png',
  // shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
   iconSize: [15, 28],
   iconAnchor: [12, 41],
@@ -83,6 +83,8 @@ function setMarkers(dataArr){
     })
 }
 
+
+
 function plotElements(){
   var markerBounds = L.latLngBounds([marker.getLatLng()]);
   map.fitBounds(markerBounds);
@@ -90,7 +92,9 @@ function plotElements(){
   //add parcel geometry
   // var poly = L.geoJson(parcel_geo)
   // poly.addTo(map);
-  parcel_layer = L.geoJson(parcel_geo).addTo(map);
+  parcel_layer = L.geoJson(parcel_geo,{
+    style: {color: "orange", weight: 3}
+  }).addTo(map);
 
   //add markers
   plotMarkers(nearby_marker_lst);
