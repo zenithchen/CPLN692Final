@@ -5,6 +5,7 @@ var parceldata;  // for holding data
 var censusData;
 var marker;
 var parcel_geo;
+var parcel_layer;
 var nearby_data;
 var nearby_marker_lst=[];
 var addr;
@@ -51,7 +52,7 @@ var removeGeometry = function() {
     removeMarkers(nearby_marker_lst);
   };
   if(parcel_geo != undefined) {
-    map.removeLayer(parcel_geo);
+    map.removeLayer(parcel_layer);
   }
 };
 
@@ -89,7 +90,7 @@ function plotElements(){
   //add parcel geometry
   // var poly = L.geoJson(parcel_geo)
   // poly.addTo(map);
-  L.geoJson(parcel_geo).addTo(map);
+  parcel_layer = L.geoJson(parcel_geo).addTo(map);
 
   //add markers
   plotMarkers(nearby_marker_lst);
@@ -140,7 +141,7 @@ $(document).ready(function() {
     parceldata = JSON.parse(parcelRes[0]);
 
     // L.geoJson(censusData).addTo(map);
-    setMarkers(parceldata);
+   
     // parcel_geo = parceldata.parcel_geometry[0].geometry;
    
     // var lat = parseFloat(parceldata.parcel_df[0].Parcel_centroid_lat);
@@ -158,6 +159,7 @@ $(document).ready(function() {
   })
 
   $('#btnGroupAddon').click(function() {
+    setMarkers(parceldata);
     ///add markers
     // if (marker != undefined) {
     //   removeGeometry();
