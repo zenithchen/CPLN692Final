@@ -66,16 +66,13 @@
                         </a>              
                     </li>
                     <li class="nav-item" >
-                      <a class="nav-link active text" aria-current="page" href="#" >Active</a>
+                      <a class="nav-link active text" aria-current="page" href="#" >API</a>
                     </li>
                     <li class="nav-item"  >
-                      <a class="nav-link text" href="#" >Link</a>
+                      <a class="nav-link text" href="#" >Intro</a>
                     </li>
                     <li class="nav-item" >
-                      <a class="nav-link text" href="#" >Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled text" href="#" tabindex="-1" aria-disabled="true">Link</a>
+                      <a class="nav-link text" href="#" >Contact</a>
                     </li>
                 </ul>
             </div>
@@ -94,12 +91,12 @@
             
 
             <!-- chart -->
-            <div class="sidebar2 text" style="top: 30%;">
+            <div class="sidebarchart text" style="top: 27%;">
                 <canvas id="myChart" width="95" height="95">
                 <script>
-                const DATA_COUNT = 7;
+                const DATA_COUNT = 6;
                 const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
-                const labels = ["risk", "risk", "risk", "risk", "risk", "risk"];
+                const labels = ["related_violation", "isunsafe", "iscom", "ishotel", "isCMX2", "violation_count"];
                 const data = {
                     labels: labels,
                     datasets: [
@@ -281,34 +278,77 @@
        <div style="color: black;">
         <div class="sidebar3" style="top: 1%;">
             <div class="card" style="background-color: rgba(250, 250, 250, 0.333); border: rgba(1, 1, 1, 0);border-radius: 6.7%;">
-                <div class="card-body" >
+                <div class="card-body h-100" style="padding-bottom: 0.5rem; padding-top: 0.8rem;">
                   <h5 class="card-title">CENSUS DATA</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">2842</th>
+                        <th scope="col">2322</th>
+                        <th scope="col">68</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class = "fw-light" style="font-size:small;">Population</td>
+                        <td class = "fw-light" style="font-size:small;">Blacks</td>
+                        <td class = "fw-light" style="font-size:small;">Whites</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">17219</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="font-size:small;">Median Income</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
             </div>
         </div>
 
-        <div class="sidebar3" style="top: 30%;">
-            <div class="card" style="background-color: rgba(250, 250, 250, 0.333); border: rgba(1, 1, 1, 0);border-radius: 6.7%;">
-                <div class="card-body" >
-                  <h5 class="card-title">311 REQUEST</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="sidebar3" style="top: 36%;">
+            <div class="card" style="background-color: rgba(250, 250, 250, 0.333); border: rgba(1, 1, 1, 0);
+            border-radius: 6.7%; ">
+                <div class="card-body" style="padding-bottom: 0.5rem; padding-top: 0.8rem;">
+                    <h5 class="card-title">311 REQUEST</h5>
+                    <table class="table table-sm">
+                        <thead>
+                          <tr>
+                            <th scope="col">6</th>
+                          </tr>
+                        </thead>
+                      </table>
+                      <p class="lh-sm fw-light" >Abandoned Vehicle<br/>
+                        Street Light Outage<br/>...</p>
                 </div>
             </div>
         </div>
+        
 
-        <div class="sidebar3" style="top: 59%;">
+        <div class="sidebar3" style="top: 66%;">
             <div class="card" style="background-color: rgba(250, 250, 250, 0.333); border: rgba(1, 1, 1, 0);border-radius: 6.7%;">
-                <div class="card-body" >
-                  <h5 class="card-title">NEARBY PARCEL</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                      jlkjlskdjjkl  kdsl nl w nlksd lkwe nlke ewlk
-                  </p>
+                <div class="card-body"style="padding-bottom: 0.5rem; padding-top: 0.8rem;" >
+                    <h5 class="card-title" >NEARBY PARCEL</h5>
+                    <table class="table table-sm">
+                        <thead>
+                          <tr>
+                            <th scope="col">6</th>
+                          </tr>
+                        </thead>
+                      </table>
+                      <p class="lh-sm fw-light" >1206 W VENANGO ST<br/>
+                        3544 OLD YORK RD<br/>...</p>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
