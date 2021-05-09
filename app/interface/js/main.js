@@ -40,6 +40,16 @@ var blueIcon = new L.Icon({
 /* =====================
   Functions
 ===================== */
+var newapi = function(input){
+  var address = `http://3.22.171.167:8000/parcel_info?addr=${input}`
+  return(encodeURI(address))
+}
+
+var updateapi = function(api){
+  $('#apilink').html(`<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" 
+  title="IP Address" data-bs-content="<a href='${api}' target='_blank'> ${api} </a>">API</button>`)
+}
+
 var removeMarkers = function(lst) {
   lst.forEach((item) =>{
       map.removeLayer(item);
@@ -121,7 +131,6 @@ var updateparcel= function(dataArr){
     nameparcel = dataArr[i].ADDR_SOURCE
     namesparcel.push(nameparcel)
   }
-  console.log(namesparcel)
   $('#parcelcount').html(countparcel)
   $('#parcelname').html(newparcel(namesparcel))
 }
@@ -159,6 +168,8 @@ function getInfo(dataArr){
 /*click nearby marker function*/ 
 function onClick(e) {
   // alert("click function!")
+  var api = newapi(inputAddr);
+  console.log(api)
   $.ajax(nearbyparcelURL).done(function(nearbyRes) {
     nearby_data = JSON.parse(nearbyRes);
     // console.log(nearby_data);
@@ -170,6 +181,7 @@ function onClick(e) {
     updateChart(room_Chart, room);
     update311(request)
     updateparcel(nearby)
+    updateapi(api)
   });
 }
 
@@ -228,7 +240,8 @@ $(document).ready(function() {
 
       // plotMarkers(nearby_marker_lst);
       // marker.addTo(map).openPopup();
-
+      var api = newapi(inputAddr);
+      console.log(api)
       plotElements();
 
       // var zoning = parceldata.properties_df[0].zoning;
@@ -246,6 +259,17 @@ $(document).ready(function() {
       updateChart(room_Chart, room);
       update311(request)
       updateparcel(nearby)
+      //api popover
+      var api = newapi(inputAddr);
+      console.log(api)
+      updateapi(api)
+      $(function () {
+        $('[data-toggle="popover"]').popover({
+           trigger: 'click',
+           sanitize : false,
+           html:true
+          })
+      })
       // $('#tb-zoning').text(zoning);
       // $('#tb-cat').text(category);
       // $('#tb-vio').text(vio_code);
