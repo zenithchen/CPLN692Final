@@ -67,7 +67,7 @@
                         </a>              
                     </li>
                     <li class="nav-item" >
-                      <a class="nav-link active text" aria-current="page" href="#" id="barbtn" >API</a>
+                      <a class="nav-link active text" aria-current="page" href="#" id="barbtn" >Intro</a>
                       <script >
                           $(function () {
                               $('[data-toggle="popover"]').popover({
@@ -78,10 +78,10 @@
                             })
                       </script>
                         <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" 
-                        title="IP Address" data-bs-content="<a href='http://3.22.171.167:8000/parcel_info?addr=1200%20W%20VENANGO%20ST'>http://3.22.171.167:8000/parcel_info?addr=1200%20W%20VENANGO%20ST</a>">API</button>
+                        title="IP Address" data-bs-content="<a href='http://3.22.171.167:8000/parcel_info?addr=1200%20W%20VENANGO%20ST' target='_blank'> http://3.22.171.167:8000/parcel_info?addr=1200%20W%20VENANGO%20ST </a>">API</button>
                     </li>
                     <li class="nav-item"  >
-                      <a class="nav-link text" href="#" >Intro</a>
+                      <a class="nav-link text" href="#" >Source</a>
                     </li>
                     <li class="nav-item" >
                       <a class="nav-link text" href="#" >Contact</a>
@@ -104,7 +104,7 @@
 
             <!-- chart -->
             <div class="sidebarchart text" style="top: 27%;">
-                <canvas id="myChart" width="95" height="95">
+                <canvas id="myChart" >
                 <script>
                 const DATA_COUNT = 6;
                 const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
@@ -114,12 +114,18 @@
                     datasets: [
                         {label: 'The parcel',
                         data: [3,4,5,3,4,5],
-                        backgroungColor: ['rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)']
+                        fill: true,
+                        borderColor: 'rgba(220, 53, 69,0.85)',
+                        pointBackgroundColor: 'rgba(220, 53, 69,0.85)',
+                        backgroungColor: 'rgba(220, 53, 69,0.85)'
                     },
                     {
                         label: 'Average',
                         data: [1,4,6,2,2,2],
-                        backgroungColor: ['rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)','rgba(209, 209, 209,1)']
+                        fill: true,
+                        borderColor: 'rgba(43, 23, 15,0.72)',
+                        pointBackgroundColor: 'rgba(43, 23, 15,0.72)',
+                        backgroungColor: 'rgba(43, 23, 15,0.72)'
                     }]
                 };
                 var ctx = document.getElementById('myChart').getContext('2d');
@@ -158,8 +164,8 @@
                         label: 'Total area',
                         data: [1351, 1351],
                         backgroundColor: [
-                            'rgba(209, 209, 209,1)',
-                            'rgba(209, 209, 209,1)',
+                            'rgba(220, 53, 69,0.85)',
+                            'rgba(43, 23, 15,0.72)',
                         ],
                         borderWidth: 0
                     }]
@@ -184,6 +190,9 @@
                         title: {
                             display: false,
                             text: '# of rooms'
+                        },
+                        tooltip:{
+                            position: 'nearest'
                         }
                      }
                 }
@@ -204,8 +213,8 @@
                         label: '# of rooms',
                         data: [30, 30],
                         backgroundColor: [
-                            'rgba(209, 209, 209,1)',
-                            'rgba(209, 209, 209,1)',
+                        'rgba(220, 53, 69,0.85)',
+                        'rgba(43, 23, 15,0.72)',
                         ],
                         borderWidth: 0
                     }]
@@ -251,8 +260,8 @@
                         label: '# of rooms',
                         data: [3, 3],
                         backgroundColor: [
-                            'rgba(209, 209, 209,1)',
-                            'rgba(209, 209, 209,1)',
+                        'rgba(220, 53, 69,0.85)',
+                        'rgba(43, 23, 15,0.72)',
                         ],
                         borderWidth: 0
                     }]
@@ -296,9 +305,9 @@
                   <table class="table table-sm">
                     <thead>
                       <tr>
-                        <th scope="col">2842</th>
-                        <th scope="col">2322</th>
-                        <th scope="col">68</th>
+                        <th scope="col" id="pop">2842</th>
+                        <th scope="col" id="black">2322</th>
+                        <th scope="col" id="white">68</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -334,11 +343,11 @@
                     <table class="table table-sm">
                         <thead>
                           <tr>
-                            <th scope="col">6</th>
+                            <th scope="col" id="311count">6</th>
                           </tr>
                         </thead>
                       </table>
-                      <p class="lh-sm fw-light" >Abandoned Vehicle<br/>
+                      <p class="lh-sm fw-light" id="311name">Abandoned Vehicle<br/>
                         Street Light Outage<br/>...</p>
                 </div>
             </div>
@@ -352,52 +361,17 @@
                     <table class="table table-sm">
                         <thead>
                           <tr>
-                            <th scope="col">6</th>
+                            <th scope="col" id="parcelcount">6</th>
                           </tr>
                         </thead>
                       </table>
-                      <p class="lh-sm fw-light" >1206 W VENANGO ST<br/>
+                      <p class="lh-sm fw-light"  id="parcelname">1206 W VENANGO ST<br/>
                         3544 OLD YORK RD<br/>...</p>
                 </div>
             </div>
         </div>
         </div>
     </div>
-
- <!--
-        <span class="census">CENSUS DATA</span>
-            <span>2,322</span>
-            <span>68</span>
-            <span class="R311">311 REQUEST</span>
-            <span >2,842</span>
-            <span class="nearby">NEARBY PARCEL</span>
-
-            <span>Population</span>
-            <span>Whites</span>
-            <span>Blacks</span>
-   
-            <span>6</span>
-            <span>Abandoned Vehicle</span>
-            <span>Maintenance Complaint</span>
-            <span>Street Light Outage</span>
-            <span>Abandoned Vehicle</span>
-            <span>Abandoned Vehicle</span>
-
-            <span>Dangerous Building Complaint</span>
-            <span>17,219</span>
-            <span>Median Income</span>
-
-            <span>8</span>
-            <span>Abandoned Vehicle</span>
-            <span>Abandoned Vehicle</span>
-            <span>Maintenance Complaint</span>
-            <span>Maintenance Complaint</span>
-            <span>Street Light Outage</span>
-            <span>Street Light Outage</span>
-
-            <span>Dangerous Building Complaint</span>
-            <span>Dangerous Building Complaint</span>
-            -->
         </div>
         </div>
     </body>

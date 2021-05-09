@@ -83,6 +83,48 @@ function setMarkers(dataArr){
     })
 }
 
+//Cards: 311 Request
+var new311 = function(entry){
+  if(entry.length>1){
+   return (`${entry[0]}<br/>${entry[1]}<br/>...`)
+  }else if(entry.length==1){
+   return(`${entry[0]}<br/>...`)
+   }else{
+    return(`none`)}
+   }
+
+function update311(dataArr){
+  var count311= dataArr.length
+  var names311=[]
+  for(let i=0;i<count311;i++){
+    name311 = dataArr[i].service_name
+    names311.push(name311)
+  }
+  $('#311count').html(count311)
+  $('#311name').html(new311(names311))
+}
+
+//Cards: Nearby Parcel
+var newparcel = function(entry){
+  if(entry.length>1){
+   return (`${entry[0]}<br/>${entry[1]}<br/>...`)
+  }else if(entry.length==1){
+   return(`${entry[0]}<br/>...`)
+   }else{
+    return(`none`)}
+   }
+
+var updateparcel= function(dataArr){
+  var countparcel= dataArr.length
+  var namesparcel=[]
+  for(let i=0;i<countparcel;i++){
+    nameparcel = dataArr[i].ADDR_SOURCE
+    namesparcel.push(nameparcel)
+  }
+  console.log(namesparcel)
+  $('#parcelcount').html(countparcel)
+  $('#parcelname').html(newparcel(namesparcel))
+}
 
 
 function plotElements(){
@@ -110,6 +152,8 @@ function getInfo(dataArr){
   story = dataArr.properties_df[0].number_stories;
   room = dataArr.properties_df[0].number_of_rooms;
   frontage = dataArr.properties_df[0].frontage;
+  request = dataArr.request311_within100m
+  nearby = dataArr.nearby_parcel_df
 }
 
 /*click nearby marker function*/ 
@@ -124,6 +168,8 @@ function onClick(e) {
     updateChart(area_Chart, total_area);
     updateChart(frontage_Chart, frontage);
     updateChart(room_Chart, room);
+    update311(request)
+    updateparcel(nearby)
   });
 }
 
@@ -198,7 +244,8 @@ $(document).ready(function() {
       updateChart(area_Chart, total_area);
       updateChart(frontage_Chart, frontage);
       updateChart(room_Chart, room);
-
+      update311(request)
+      updateparcel(nearby)
       // $('#tb-zoning').text(zoning);
       // $('#tb-cat').text(category);
       // $('#tb-vio').text(vio_code);
