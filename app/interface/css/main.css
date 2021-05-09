@@ -7,7 +7,7 @@ body {
 .canvas {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right,#fa9667, #ddb1b3);
+  background-image: linear-gradient(to right,#f5986d, #ddb1b3);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -73,14 +73,14 @@ body {
 
 
 .mapframe1 {
-  width: 580px;
-  height: 580px;
+  width: 590px;
+  height: 590px;
   background: #fff5ca;
   opacity: 0.76;
   position: absolute;
   top: 50%;
   left: 56%;
-  margin: -290px 0 0 -290px;
+  margin: -295px 0 0 -295px;
   border-radius: 50%;
 }
 
@@ -89,18 +89,18 @@ body {
 }
 
 .map {
-  width: 480px;
-  height: 480px;
+  width: 490px;
+  height: 490px;
   background: #C4C4C4;
   opacity: 1;
   position: absolute;
   top: 50%;
   left: 56%;
-  margin: -240px 0 0 -240px;
+  margin: -245px 0 0 -245px;
   border-radius: 50%;
 }
 .navbar {
-  width: 74px;
+  width: 72px;
   height: 100%;
   background: #0c0301dc;
   opacity: 1;
@@ -109,6 +109,29 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
+.nav-item2::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #f5986d;
+  transition: 0.4s
+}
+
+.nav-item2:hover::after {
+  width: 80%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f5986d
+}
+
 
 .above {
   width: 249px;

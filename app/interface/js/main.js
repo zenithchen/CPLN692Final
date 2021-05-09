@@ -168,8 +168,6 @@ function getInfo(dataArr){
 /*click nearby marker function*/ 
 function onClick(e) {
   // alert("click function!")
-  var api = newapi(inputAddr);
-  console.log(api)
   $.ajax(nearbyparcelURL).done(function(nearbyRes) {
     nearby_data = JSON.parse(nearbyRes);
     // console.log(nearby_data);
@@ -181,7 +179,7 @@ function onClick(e) {
     updateChart(room_Chart, room);
     update311(request)
     updateparcel(nearby)
-    updateapi(api)
+    //updateapi(api)
   });
 }
 
