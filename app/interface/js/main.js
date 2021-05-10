@@ -40,6 +40,16 @@ var blueIcon = new L.Icon({
 /* =====================
   Functions
 ===================== */
+var newapi = function(input){
+  var address = `http://3.22.171.167:8000/parcel_info?addr=${input}`
+  return(encodeURI(address))
+}
+
+var updateapi = function(api){
+  $('#apilink').html(`<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" 
+  title="IP Address" data-bs-content="<a href='${api}' target='_blank'> ${api} </a>">API</button>`)
+}
+
 var removeMarkers = function(lst) {
   lst.forEach((item) =>{
       map.removeLayer(item);
@@ -83,6 +93,47 @@ function setMarkers(dataArr){
     })
 }
 
+//Cards: 311 Request
+var new311 = function(entry){
+  if(entry.length>1){
+   return (`${entry[0]}<br/>${entry[1]}<br/>...`)
+  }else if(entry.length==1){
+   return(`${entry[0]}<br/>...`)
+   }else{
+    return(`none`)}
+   }
+
+function update311(dataArr){
+  var count311= dataArr.length
+  var names311=[]
+  for(let i=0;i<count311;i++){
+    name311 = dataArr[i].service_name
+    names311.push(name311)
+  }
+  $('#311count').html(count311)
+  $('#311name').html(new311(names311))
+}
+
+//Cards: Nearby Parcel
+var newparcel = function(entry){
+  if(entry.length>1){
+   return (`${entry[0]}<br/>${entry[1]}<br/>...`)
+  }else if(entry.length==1){
+   return(`${entry[0]}<br/>...`)
+   }else{
+    return(`none`)}
+   }
+
+var updateparcel= function(dataArr){
+  var countparcel= dataArr.length
+  var namesparcel=[]
+  for(let i=0;i<countparcel;i++){
+    nameparcel = dataArr[i].ADDR_SOURCE
+    namesparcel.push(nameparcel)
+  }
+  $('#parcelcount').html(countparcel)
+  $('#parcelname').html(newparcel(namesparcel))
+}
 
 
 function plotElements(){
@@ -110,6 +161,8 @@ function getInfo(dataArr){
   story = dataArr.properties_df[0].number_stories;
   room = dataArr.properties_df[0].number_of_rooms;
   frontage = dataArr.properties_df[0].frontage;
+  request = dataArr.request311_within100m
+  nearby = dataArr.nearby_parcel_df
 }
 
 /*click nearby marker function*/ 
@@ -124,6 +177,9 @@ function onClick(e) {
     updateChart(area_Chart, total_area);
     updateChart(frontage_Chart, frontage);
     updateChart(room_Chart, room);
+    update311(request)
+    updateparcel(nearby)
+    //updateapi(api)
   });
 }
 
@@ -182,7 +238,8 @@ $(document).ready(function() {
 
       // plotMarkers(nearby_marker_lst);
       // marker.addTo(map).openPopup();
-
+      var api = newapi(inputAddr);
+      console.log(api)
       plotElements();
 
       // var zoning = parceldata.properties_df[0].zoning;
@@ -198,7 +255,19 @@ $(document).ready(function() {
       updateChart(area_Chart, total_area);
       updateChart(frontage_Chart, frontage);
       updateChart(room_Chart, room);
-
+      update311(request)
+      updateparcel(nearby)
+      //api popover
+      var api = newapi(inputAddr);
+      console.log(api)
+      updateapi(api)
+      $(function () {
+        $('[data-toggle="popover"]').popover({
+           trigger: 'click',
+           sanitize : false,
+           html:true
+          })
+      })
       // $('#tb-zoning').text(zoning);
       // $('#tb-cat').text(category);
       // $('#tb-vio').text(vio_code);
