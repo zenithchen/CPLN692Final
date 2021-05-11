@@ -1,6 +1,7 @@
 /* =====================
   Global Variables
 ===================== */
+var parcelURL;
 var parceldata;  // for holding data
 var censusData;
 var marker;
@@ -42,6 +43,7 @@ var blueIcon = new L.Icon({
 ===================== */
 var newapi = function(input){
   var address = `http://3.22.171.167:8000/parcel_info?addr=${input}`
+  console.log(encodeURI(address))
   return(encodeURI(address))
 }
 
@@ -81,6 +83,7 @@ function setMarkers(dataArr){
   removeGeometry();
   // removeMarkers(nearby_marker_lst);
   nearby_marker_lst=[];
+  console.log()
   parcel_geo = dataArr.parcel_geometry[0].geometry;
   var lat = parseFloat(dataArr.parcel_df[0].Parcel_centroid_lat);
   var lng = parseFloat(dataArr.parcel_df[0].Parcel_centroid_lng);
@@ -190,15 +193,15 @@ function onClick(e) {
 ===================== */
 
 //  var parcelURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/fixedResponse0427.json"
-var parcelURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/response0507.json"
-var censusURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/Census_Tracts_2010.geojson"
+// var parcelURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/response0507.json"
+// var censusURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/Census_Tracts_2010.geojson"
 var nearbyparcelURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/response05052.json"
 
 $(document).ready(function() {
 
-  $.when($.ajax(censusURL),$.ajax(parcelURL)).then(function(censusRes, parcelRes){
-    censusData = JSON.parse(censusRes[0]);
-    parceldata = JSON.parse(parcelRes[0]);
+//   $.when($.ajax(censusURL),$.ajax(parcelURL)).then(function(censusRes, parcelRes){
+//     censusData = JSON.parse(censusRes[0]);
+//     parceldata = JSON.parse(parcelRes[0]);
 
     // L.geoJson(censusData).addTo(map);
    
@@ -216,17 +219,28 @@ $(document).ready(function() {
     //   nearby_marker_lst.push(myMarker);
     //   })
 
-  })
+  // })
+
 
   $('#btnGroupAddon').click(function() {
+    var inputAddr = $('.form-control').val();
+
+    parcelURL = newapi(inputAddr);
+    // console.log(parcelURL);
+    // console.log(encodeURI(parcelURL));
+
+    $.ajax(parcelURL).done(function(parcelRes) {
+      parceldata = JSON.parse(parcelRes[0]);
+    });
+
+    console.log(parceldata);
+
     setMarkers(parceldata);
     ///add markers
     // if (marker != undefined) {
     //   removeGeometry();
     // };
     // removeMarkers(nearby_marker_lst);
-
-    var inputAddr = $('.form-control').val();
 
     if(inputAddr===addr){
       // var markerBounds = L.latLngBounds([marker.getLatLng()]);
