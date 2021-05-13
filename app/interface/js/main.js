@@ -111,11 +111,11 @@ var new311 = function(entry){
     return(`none`)}
    }
 
-function update311(dataArr){
-  var count311= dataArr.length
+var update311 =function(request){
+  let count311= request.length
   var names311=[]
   for(let i=0;i<count311;i++){
-    name311 = dataArr[i].service_name
+    name311 = request[i].service_name
     names311.push(name311)
   }
   $('#311count').html(count311)
@@ -157,6 +157,14 @@ function plotElements(){
   marker.addTo(map).openPopup();
 }
 
+var updaterisk= function(risk){
+  if (parceldata.prediction[0].Relative_risk === 'Above average'){
+    $(".above").html("Above")
+  }else if(parceldata.prediction[0].Relative_risk === 'Below average'){
+    $(".above").html("Below")
+  }
+}
+
 function getInfo(dataArr){
   zoning = dataArr.properties_df[0].zoning;
   category = dataArr.properties_df[0].category;
@@ -168,6 +176,7 @@ function getInfo(dataArr){
   frontage = dataArr.properties_df[0].frontage;
   request = dataArr.request311_within100m
   nearby = dataArr.nearby_parcel_df
+  risk = dataArr.prediction[0].Relative_risk
 }
 
 /*click nearby marker function*/ 
@@ -232,6 +241,7 @@ $(document).ready(function() {
       updateChart(room_Chart, room);
       update311(request)
       updateparcel(nearby)
+      updaterisk(risk)
       //api popover
       var api = newapi(inputAddr);
       updateapi(api)
