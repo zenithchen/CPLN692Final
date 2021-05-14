@@ -23,6 +23,9 @@ var total_area;
 var story;
 var room;
 var frontage;
+var request;
+var nearby;
+var risk;
 
 var redIcon = new L.Icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
@@ -111,11 +114,11 @@ var new311 = function(entry){
     return(`none`)}
    }
 
-var update311 =function(request){
-  let count311= request.length
+var update311 =function(req){
+  let count311= req.length
   var names311=[]
   for(let i=0;i<count311;i++){
-    name311 = request[i].service_name
+    name311 = req[i].service_name
     names311.push(name311)
   }
   $('#311count').html(count311)
@@ -143,6 +146,14 @@ var updateparcel= function(dataArr){
   $('#parcelname').html(newparcel(namesparcel))
 }
 
+//census data
+function updateCensus(census){
+  $('#pop').html(parceldata.census_df[0].population);
+  $('#black').html(parceldata.census_df[0].black_population);
+  $('#white').html(parceldata.census_df[0].white_population);
+  $('#income').html(parceldata.census_df[0].median_income);
+}
+
 
 function plotElements(){
   var markerBounds = L.latLngBounds([marker.getLatLng()]);
@@ -159,14 +170,17 @@ function plotElements(){
 
 var updaterisk= function(risk){
   if (parceldata.prediction[0].Relative_risk === 'Above average'){
-    $(".above").html("Above")
+    $(".above").html("Above");
+    $(".average").html("Average");
   }else if(parceldata.prediction[0].Relative_risk === 'Below average'){
-    $(".above").html("Below")
+    $(".above").html("Below");
+    $(".average").html("Average");
   }
 }
 
 function getInfo(dataArr){
   zoning = dataArr.properties_df[0].zoning;
+  console.log(zoning)
   category = dataArr.properties_df[0].category;
   vio_code = dataArr.properties_df[0].vio_title;
   year_built = dataArr.properties_df[0].year_built;
@@ -174,9 +188,10 @@ function getInfo(dataArr){
   story = dataArr.properties_df[0].number_stories;
   room = dataArr.properties_df[0].number_of_rooms;
   frontage = dataArr.properties_df[0].frontage;
-  request = dataArr.request311_within100m
+  request = dataArr.request311_100m
   nearby = dataArr.nearby_parcel_df
   risk = dataArr.prediction[0].Relative_risk
+  censusData = parceldata.census_df[0]
 }
 
 /*click nearby marker function*/ 
@@ -204,8 +219,9 @@ function onClick(e) {
   updateChart(area_Chart, total_area);
   updateChart(frontage_Chart, frontage);
   updateChart(room_Chart, room);
-  update311(request)
-  updateparcel(nearby)
+  update311(request);
+  updateparcel(nearby);
+  updateCensus(censusData);
 }
 
 
@@ -213,7 +229,7 @@ function onClick(e) {
 /* =====================
   Parse and store data for later use
 ===================== */
-var censusURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/Census_Tracts_2010.geojson"
+// var censusURL = "https://raw.githubusercontent.com/zenithchen/CPLN692Final/main/Data/Census_Tracts_2010.geojson"
 
 $(document).ready(function() {
   $('#loader').hide();
@@ -235,9 +251,11 @@ $(document).ready(function() {
     $('#loader').hide()
     console.log(parceldata)
 
-    setMarkers(parceldata);
-
-    if(inputAddr===addr){
+    if(parceldata.parcel_df[0].Opa_account_num=="NONE FOUND"){
+      alert("Please enter a valid address!")
+    }
+    else{
+      setMarkers(parceldata);
       plotElements();
 
       getInfo(parceldata);
@@ -245,9 +263,10 @@ $(document).ready(function() {
       updateChart(area_Chart, total_area);
       updateChart(frontage_Chart, frontage);
       updateChart(room_Chart, room);
-      update311(request)
-      updateparcel(nearby)
-      updaterisk(risk)
+      update311(request);
+      updateparcel(nearby);
+      updaterisk(risk);
+      updateCensus(censusData);
       //api popover
       var api = newapi(inputAddr);
       updateapi(api)
@@ -257,11 +276,10 @@ $(document).ready(function() {
            sanitize : false,
            html:true
           })
-      })     
+      })   
+
     }
-    else{
-      alert("NONE FOUND")
-    }    
+   
   });
 
 })
