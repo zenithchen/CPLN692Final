@@ -87,6 +87,16 @@ function updateChart(barchart, newdata){
   barchart.update()
 }
 
+function updateChart2(radarchart, below, unsafe, com, hotel, CMX2, vioct){
+  radarchart.data.datasets[0].data[0] = below
+  radarchart.data.datasets[0].data[1] = unsafe
+  radarchart.data.datasets[0].data[2] = com
+  radarchart.data.datasets[0].data[3] = hotel
+  radarchart.data.datasets[0].data[4] = CMX2
+  radarchart.data.datasets[0].data[5] = vioct/10
+  radarchart.update()
+}
+
 function setMarkers(dataArr){
   // console.log(dataArr)
   removeGeometry();
@@ -107,7 +117,7 @@ function setMarkers(dataArr){
 //Cards: 311 Request
 var new311 = function(entry){
   if(entry.length>1){
-   return (`${entry[0]}<br/>${entry[1]}<br/>...`)
+   return (`1. ${entry[0]}<br/>2. ${entry[1]}<br/>...`)
   }else if(entry.length==1){
    return(`${entry[0]}<br/>...`)
    }else{
@@ -123,12 +133,13 @@ var update311 =function(req){
   }
   $('#311count').html(count311)
   $('#311name').html(new311(names311))
+  console.log(new311(names311))
 }
 
 //Cards: Nearby Parcel
 var newparcel = function(entry){
   if(entry.length>1){
-   return (`${entry[0]}<br/>${entry[1]}<br/>...`)
+   return (`1. ${entry[0]}<br/>2. ${entry[1]}<br/>...`)
   }else if(entry.length==1){
    return(`${entry[0]}<br/>...`)
    }else{
@@ -183,6 +194,12 @@ function getInfo(dataArr){
   console.log(zoning)
   category = dataArr.properties_df[0].category;
   vio_code = dataArr.properties_df[0].vio_title;
+  CMX2= dataArr.properties_df[0].isCMX2;
+  below = dataArr.properties_df[0].isbelow;
+  com= dataArr.properties_df[0].iscom;
+  hotel= dataArr.properties_df[0].ishotel;
+  unsafe= dataArr.violation_df[0].isunsafe;
+  vioct = dataArr.violation_df[0].viol_count;
   year_built = dataArr.properties_df[0].year_built;
   total_area = dataArr.properties_df[0].total_area;
   story = dataArr.properties_df[0].number_stories;
@@ -219,6 +236,7 @@ function onClick(e) {
   updateChart(area_Chart, total_area);
   updateChart(frontage_Chart, frontage);
   updateChart(room_Chart, room);
+  updateChart2(radar_Chart, below, unsafe, com, hotel, CMX2, vioct);
   update311(request);
   updateparcel(nearby);
   updateCensus(censusData);
@@ -267,6 +285,7 @@ $(document).ready(function() {
       updateparcel(nearby);
       updaterisk(risk);
       updateCensus(censusData);
+      updateChart2(radar_Chart, below, unsafe, com, hotel, CMX2, vioct);
       //api popover
       var api = newapi(inputAddr);
       updateapi(api)
