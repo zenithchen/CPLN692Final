@@ -117,7 +117,14 @@ function setMarkers(dataArr){
 //Cards: 311 Request
 var new311 = function(entry){
   if(entry.length>1){
-   return (`1. ${entry[0]}<br/>2. ${entry[1]}<br/>...`)
+    console.log(entry[0].length)
+    if(entry[0].length>30){
+      return(`1. ${entry[0]}<br/>...`)
+    }else if(entry[1].length>30){
+      return(`1. ${entry[1]}<br/>...`)
+    }else{
+      return (`1. ${entry[0]}<br/>2. ${entry[1]}<br/>...`)
+    }
   }else if(entry.length==1){
    return(`${entry[0]}<br/>...`)
    }else{
