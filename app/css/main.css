@@ -134,6 +134,11 @@ body {
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;
+  box-decoration-break: none;
+}
+
+.dropdown-menu:focus,.dropdown-menu:active {
+  color: #555;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,

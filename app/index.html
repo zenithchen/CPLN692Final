@@ -82,7 +82,6 @@
                                     3. Click on one of the grey marker and it will automatically request data of that parcel. You can also input another address for a new request.<br/><br/>
                                     Some addresses:<br/>
                                     1200 W VENANGO ST<br/>
-                                    7701 LINDBERGH BLVD<br/>
                                     4054 1/2 LANCASTER AVE<br/>
                                     4048 LANCASTER AVE<br/>
                                     4058 1/2 LANCASTER AVE<br/>
@@ -139,10 +138,31 @@
 
 
             <!--Search-->
-            <div class="sidebar2" style="top: 21%;">
+            <div class="sidebar" style="top: 21%;">
                 <div class="input-group">
                     <div class="input-group-text search" id="btnGroupAddon" style="cursor:pointer">Go</div>
                     <input type="text" class="form-control" placeholder="Input an address" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle " style="border: black; color: black; background-color: rgba(1, 1, 1, 0);" data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                        <ul class="dropdown-menu btn" aria-labelledby="btnGroupDrop1" style="font-size: smaller;">
+                          <li><a class="dropdown-item" id="addr1" >1200 W VENANGO ST</a></li>
+                          <li><a class="dropdown-item" id="addr2">4054 1/2 LANCASTER AVE</a></li>
+                          <li><a class="dropdown-item" id="addr3">4048 LANCASTER AVE</a></li>
+                          <li><a class="dropdown-item" id="addr4">4058 1/2 LANCASTER AVE</a></li>
+                          <li><a class="dropdown-item" id="addr5">1140 W VENANGO ST</a></li>
+                          <li><a class="dropdown-item" id="addr6">1677 W WYOMING AVE</a></li>
+                          <li><a class="dropdown-item" id="addr7">1911 S GALLOWAY ST</a></li>
+                          <li><a class="dropdown-item" id="addr8">10904 CAREY TER</a></li>
+                          <li><a class="dropdown-item" id="addr9">3134 MECHANICSVILLE RD</a></li>
+                          <li><a class="dropdown-item" id="addr10">12466 KNIGHTS RD</a></li>
+                          <li><a class="dropdown-item" id="addr11">9629 WISSINOMING ST</a></li>
+                          <li><a class="dropdown-item" id="addr12">499 FRANKLIN MILLS CIR</a></li>
+                          <li><a class="dropdown-item" id="addr13">3118 MAUREEN DR</a></li>
+                          <li><a class="dropdown-item" id="addr14">3626 BISCAYNE PL</a></li>
+                          
+                        </ul>
+                    </div>
                     <div id="loader" class="lds-dual-ring hidden overlay"></div>
                 </div>
             </div>
@@ -416,7 +436,7 @@
                           </tr>
                         </thead>
                       </table>
-                      <p class="lh-sm fw-light"  id="parcelname">No parcel within 50m<br/>&nbsp</p>
+                      <p class="lh-sm fw-light"  id="parcelname">No parcel within 50m<br/>&nbsp<br/>&nbsp</p>
                 </div>
             </div>
         </div>
