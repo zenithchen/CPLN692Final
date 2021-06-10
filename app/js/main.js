@@ -129,7 +129,7 @@ var new311 = function(entry){
     }
   }else if(entry.length==1 && entry[0]!=undefined){
     console.log(1)
-   return(`${entry[0]}<br/>&nbsp`)
+   return(`${entry[0]}<br/>&nbsp<br/>&nbsp`)
    }else{
     console.log(2)
     return(`none<br/>&nbsp`)}
@@ -152,7 +152,7 @@ var newparcel = function(entry){
   if(entry.length>1){
    return (`1. ${entry[0]}<br/>2. ${entry[1]}<br/>...`)
   }else if(entry.length==1){
-   return(`${entry[0]}<br/>&nbsp`)
+   return(`${entry[0]}<br/>&nbsp<br/>&nbsp`)
    }else{
     return(`none`)}
    }
