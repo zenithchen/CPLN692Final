@@ -49,7 +49,7 @@ var blueIcon = new L.Icon({
   Functions
 ===================== */
 var newapi = function(input){
-  var address = `http://3.22.171.167:8000/parcel_info?addr=${input}`
+  var address = `https://www.fireapi.me/parcel_info?addr=${input}`
    console.log(address)
   // return(encodeURI(address))
   return(address)
